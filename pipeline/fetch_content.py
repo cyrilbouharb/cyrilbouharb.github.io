@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Content pipeline: fetches from Microsoft sources, deduplicates,
+Content pipeline: fetches AI, Foundry, Copilot, GitHub, and Data & AI content
+from Microsoft sources, filters for relevance, deduplicates,
 and outputs Hugo-compatible markdown posts.
 """
 
@@ -15,19 +16,53 @@ from pathlib import Path
 from dateutil import parser as dateparser
 
 # ── Configuration ──────────────────────────────────────────────
+# RSS sources focused on AI, Foundry, Copilot, GitHub, and Data & AI
 SOURCES = {
-    "microsoft_blog": [
+    "azure_ai_blog": [
         "https://azure.microsoft.com/en-us/blog/feed/",
+    ],
+    "devblogs": [
         "https://devblogs.microsoft.com/azure-sdk/feed/",
+        "https://devblogs.microsoft.com/semantic-kernel/feed/",
     ],
-    "tech_community": [
-        "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Azure",
+    "tech_community_ai": [
         "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=AI",
+        "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-services",
+        "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai",
     ],
-    "ms_learn": [
-        "https://learn.microsoft.com/api/search/rss?search=azure+ai&locale=en-us",
+    "ms_learn_ai": [
+        "https://learn.microsoft.com/api/search/rss?search=azure+ai+foundry&locale=en-us",
+        "https://learn.microsoft.com/api/search/rss?search=github+copilot&locale=en-us",
     ],
 }
+
+# ── Relevance filter ──────────────────────────────────────────
+# Posts MUST match at least one of these topic groups to be included.
+# Each group is a list of keywords — matching any keyword in a group counts.
+RELEVANT_TOPIC_GROUPS = [
+    # AI & ML
+    ["artificial intelligence", " ai ", "ai-", "machine learning", "deep learning",
+     "neural network", "llm", "large language model", "generative ai", "gen ai",
+     "gpt", "openai", "reasoning", "ai agent", "ai model", "multimodal"],
+    # Microsoft Foundry & AI Services
+    ["foundry", "azure ai", "ai studio", "ai services", "cognitive service",
+     "azure openai", "azure machine learning", "ai search", "ai document",
+     "speech service", "vision service", "language service", "content safety"],
+    # Copilot & GitHub
+    ["copilot", "github", "github actions", "github copilot", "code generation",
+     "dev tools", "developer experience"],
+    # Data & Analytics (AI-adjacent)
+    ["data engineering", "data pipeline", "data lake", "fabric", "synapse",
+     "databricks", "real-time analytics", "data warehouse", "power bi",
+     "microsoft fabric", "data factory"],
+    # Semantic Kernel & AI frameworks
+    ["semantic kernel", "autogen", "langchain", "promptflow", "prompt flow",
+     "responsible ai", "ai safety", "rag ", "retrieval augmented",
+     "vector search", "embedding"],
+    # Architecture & MLOps
+    ["mlops", "ai architecture", "ai infrastructure", "ai deployment",
+     "model deployment", "inference", "fine-tuning", "fine tuning"],
+]
 
 # Keywords that indicate internal/confidential content
 INTERNAL_KEYWORDS = [
@@ -35,6 +70,16 @@ INTERNAL_KEYWORDS = [
     "not for external", "do not share", "microsoft internal",
     "msft internal", "internal use only", "pre-release confidential",
     "[internal]", "embargoed",
+]
+
+# Keywords that indicate community questions (not articles)
+# Only flag if title starts with question-like patterns
+COMMUNITY_QUESTION_SIGNALS = [
+    "how do i ", "how can i ", "can someone help",
+    "i am getting error", "i'm getting error",
+    "please help", "any idea", "anyone know", "stuck on",
+    "i have a question", "does anyone", "has anyone",
+    "i need help",
 ]
 
 SITE_ROOT = Path(__file__).parent.parent
@@ -63,21 +108,48 @@ def is_internal(title: str, summary: str) -> bool:
     return any(kw in combined for kw in INTERNAL_KEYWORDS)
 
 
+def is_community_question(title: str, summary: str) -> bool:
+    """Filter out community forum questions — we only want articles/announcements.
+    Only checks the title to avoid false positives from article bodies."""
+    title_lower = title.lower()
+    return any(signal in title_lower for signal in COMMUNITY_QUESTION_SIGNALS)
+
+
+def is_relevant(title: str, summary: str) -> bool:
+    """Check if content matches our focus areas: AI, Foundry, Copilot, GitHub, Data & AI."""
+    combined = f"{title} {summary}".lower()
+    for group in RELEVANT_TOPIC_GROUPS:
+        if any(kw in combined for kw in group):
+            return True
+    return False
+
+
 def categorize(title: str, summary: str) -> list[str]:
-    """Auto-tag based on content keywords."""
+    """Auto-tag based on content keywords — focused on AI, Foundry, Copilot, GitHub."""
     tags = []
     text = f"{title} {summary}".lower()
     tag_map = {
-        "azure": "Azure", "ai": "AI", "machine learning": "ML",
-        "fabric": "Fabric", "copilot": "Copilot",
-        "openai": "OpenAI", "data": "Data",
-        "kubernetes": "Kubernetes", "devops": "DevOps",
-        "security": "Security", "networking": "Networking",
+        "foundry": "Foundry", "ai studio": "Foundry",
+        "azure ai": "Azure AI", "ai services": "Azure AI",
+        "copilot": "Copilot", "github copilot": "GitHub Copilot",
+        "github": "GitHub", "github actions": "GitHub",
+        "openai": "OpenAI", "gpt": "OpenAI",
+        "machine learning": "ML", "deep learning": "ML",
+        "llm": "LLM", "large language model": "LLM",
+        "generative ai": "Generative AI", "gen ai": "Generative AI",
+        "semantic kernel": "Semantic Kernel",
+        "fabric": "Microsoft Fabric", "synapse": "Data & Analytics",
+        "data": "Data & AI", "analytics": "Data & Analytics",
+        "rag": "RAG", "retrieval augmented": "RAG",
+        "vector": "Vector Search", "embedding": "Embeddings",
+        "responsible ai": "Responsible AI", "ai safety": "Responsible AI",
+        "architecture": "Architecture", "mlops": "MLOps",
+        "agent": "AI Agents", "autogen": "AI Agents",
     }
     for keyword, tag in tag_map.items():
-        if keyword in text:
+        if keyword in text and tag not in tags:
             tags.append(tag)
-    return tags or ["Cloud"]
+    return tags or ["AI"]
 
 
 def needs_architecture_diagram(title: str, summary: str) -> bool:
@@ -148,6 +220,16 @@ def create_hugo_post(entry: dict, manifest: dict) -> bool:
     # Filter internal content
     if is_internal(entry["title"], entry["summary"]):
         print(f"  🚫 Skipping internal content: {entry['title']}")
+        return False
+
+    # Filter community questions (not articles)
+    if is_community_question(entry["title"], entry["summary"]):
+        print(f"  💬 Skipping community question: {entry['title']}")
+        return False
+
+    # Filter irrelevant content (must match AI, Foundry, Copilot, GitHub, or Data & AI)
+    if not is_relevant(entry["title"], entry["summary"]):
+        print(f"  ⏭️  Skipping off-topic: {entry['title']}")
         return False
 
     tags = categorize(entry["title"], entry["summary"])

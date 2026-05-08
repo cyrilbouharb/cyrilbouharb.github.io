@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Copilot on Cyril&#39;s Cloud &amp; AI Daily</title>
-    <link>https://cyrilbouharb.github.io/tags/copilot/</link>
-    <description>Recent content in Copilot on Cyril&#39;s Cloud &amp; AI Daily</description>
+    <title>GitHub on Cyril&#39;s Cloud &amp; AI Daily</title>
+    <link>https://cyrilbouharb.github.io/tags/github/</link>
+    <description>Recent content in GitHub on Cyril&#39;s Cloud &amp; AI Daily</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cyrilbouharb.github.io/tags/copilot/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Using Github Copilot from Azure Subscription</title>
-      <link>https://cyrilbouharb.github.io/posts/2026-04-29-using-github-copilot-from-azure-subscription/</link>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://cyrilbouharb.github.io/posts/2026-04-29-using-github-copilot-from-azure-subscription/</guid>
-      <description>&lt;p&gt;Hello,I have a question on how GitHub Copilot can be accessed and managed through an Azure subscription. If I am getting a Github Copilot license, how is my azure subscription getting linked to the billing and licensing?Specifically, I would like clarification on how the Azure subscription is linked to GitHub Copilot billing and licensing. &lt;/p&gt;&#xA;&lt;p&gt;🔗 &lt;a href=&#34;https://techcommunity.microsoft.com/t5/azure/using-github-copilot-from-azure-subscription/m-p/4515847#M22514&#34;&gt;Read the full article&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;Curated by Cyril Bou-Harb — Solution Engineer, Cloud &amp;amp; AI at Microsoft.&lt;/em&gt;&#xA;&lt;em&gt;Views are my own.&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Fri, 24 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cyrilbouharb.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Add GitHub accounts to your keychain - Visual Studio (Windows)</title>
       <link>https://cyrilbouharb.github.io/posts/2026-04-24-add-github-accounts-to-your-keychain-visual-studio-windows/</link>

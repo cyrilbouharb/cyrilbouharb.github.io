@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Foundry on Cyril&#39;s Cloud &amp; AI Daily</title>
+    <link>https://cyrilbouharb.github.io/tags/foundry/</link>
+    <description>Recent content in Foundry on Cyril&#39;s Cloud &amp; AI Daily</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cyrilbouharb.github.io/tags/foundry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plan and Prepare to Develop AI Solutions on Azure - Training</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-04-28-plan-and-prepare-to-develop-ai-solutions-on-azure-training/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-04-28-plan-and-prepare-to-develop-ai-solutions-on-azure-training/</guid>
+      <description>&lt;p&gt;Learning objectives By the end of this module, you&amp;rsquo;ll be able to: Identify common AI capabilities that you can implement in applications Describe Microsoft Foundry and considerations for using it Describe Foundry Tools and considerations for using them Identify appropriate developer tools and SDKs for an AI project Describe considerations for.&lt;/p&gt;&#xA;&lt;p&gt;🔗 &lt;a href=&#34;https://learn.microsoft.com/en-us/training/modules/prepare-azure-ai-development/&#34;&gt;Read the full article&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;Curated by Cyril Bou-Harb — Solution Engineer, Cloud &amp;amp; AI at Microsoft.&lt;/em&gt;&#xA;&lt;em&gt;Views are my own.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Role-based access control for Microsoft Foundry - Microsoft Foundry</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-04-23-role-based-access-control-for-microsoft-foundry-microsoft-fo/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-04-23-role-based-access-control-for-microsoft-foundry-microsoft-fo/</guid>
+      <description>&lt;p&gt;Role-based access control for Microsoft Foundry Summarize this article for me In this article In this article, you learn core role-based access control (RBAC) concepts for Microsoft Foundry, including scopes, built-in roles, and common enterprise assignment patterns. Minimum role assignments to get started For new users to Azure and Microsoft F&amp;hellip;.&lt;/p&gt;&#xA;&lt;p&gt;🔗 &lt;a href=&#34;https://learn.microsoft.com/en-us/azure/foundry/concepts/rbac-foundry&#34;&gt;Read the full article&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;Curated by Cyril Bou-Harb — Solution Engineer, Cloud &amp;amp; AI at Microsoft.&lt;/em&gt;&#xA;&lt;em&gt;Views are my own.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Microsoft Foundry Quickstart - Microsoft Foundry</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-04-22-microsoft-foundry-quickstart-microsoft-foundry/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-04-22-microsoft-foundry-quickstart-microsoft-foundry/</guid>
+      <description>&lt;p&gt;Microsoft Foundry quickstart Summarize this article for me In this article In this quickstart you&amp;rsquo;ll get started using models and agents in Foundry. Python C# TypeScript Java REST API Foundry portal Install the current version of azure-ai-projects. Tip Code uses Azure AI Projects 2.x and is incompatible with &amp;hellip; Tip Code uses Azure AI Projects 2.x.&lt;/p&gt;&#xA;&lt;p&gt;🔗 &lt;a href=&#34;https://learn.microsoft.com/en-us/azure/foundry/quickstarts/get-started-code&#34;&gt;Read the full article&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;Curated by Cyril Bou-Harb — Solution Engineer, Cloud &amp;amp; AI at Microsoft.&lt;/em&gt;&#xA;&lt;em&gt;Views are my own.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
