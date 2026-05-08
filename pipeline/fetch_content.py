@@ -18,12 +18,14 @@ from dateutil import parser as dateparser
 SOURCES = {
     "microsoft_blog": [
         "https://azure.microsoft.com/en-us/blog/feed/",
-        "https://devblogs.microsoft.com/azure-ai/feed/",
-        "https://techcommunity.microsoft.com/feeds/blogs/category/AI",
-        "https://techcommunity.microsoft.com/feeds/blogs/category/Azure",
+        "https://devblogs.microsoft.com/azure-sdk/feed/",
+    ],
+    "tech_community": [
+        "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Azure",
+        "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=AI",
     ],
     "ms_learn": [
-        "https://learn.microsoft.com/en-us/azure/ai-services/whats-new?format=rss",
+        "https://learn.microsoft.com/api/search/rss?search=azure+ai&locale=en-us",
     ],
 }
 

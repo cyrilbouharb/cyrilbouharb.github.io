@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ML on Cyril&#39;s Cloud &amp; AI Daily</title>
+    <link>https://cyrilbouharb.github.io/tags/ml/</link>
+    <description>Recent content in ML on Cyril&#39;s Cloud &amp; AI Daily</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 20 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cyrilbouharb.github.io/tags/ml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure Architecture Center - Azure Architecture Center</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-04-20-azure-architecture-center-azure-architecture-center/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-04-20-azure-architecture-center-azure-architecture-center/</guid>
+      <description>&lt;p&gt;Popular articles Microsoft Foundry chat baseline architecture Develop and optimize a RAG implementation AI agent orchestration patterns Cloud design patterns Hub-spoke network topology AKS production baseline Choose your Azure compute service AI &amp;amp; Machine Learning AI architecture design Microsoft Foundry chat baseline architecture Build a.&lt;/p&gt;&#xA;&lt;div class=&#34;mermaid&#34;&gt;&#xA;  &#xA;graph LR&#xA;    A[Source] --&gt; B[Processing]&#xA;    B --&gt; C[Output]&#xA;    style A fill:#0078d4,color:#fff&#xA;    style B fill:#50e6ff,color:#000&#xA;    style C fill:#00b294,color:#fff&#xA;&#xA;&lt;/div&gt;&#xA;&lt;script src=&#34;https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js&#34;&gt;&lt;/script&gt;&#xA;&lt;script&gt;mermaid.initialize({startOnLoad:true});&lt;/script&gt;&#xA;&#xA;&lt;p&gt;&lt;em&gt;Architecture diagram for: Azure Architecture Center - Azure Architecture Center&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
