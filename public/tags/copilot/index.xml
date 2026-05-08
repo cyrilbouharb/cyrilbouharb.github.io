@@ -6,28 +6,35 @@
     <description>Recent content in Copilot on Cyril&#39;s Cloud &amp; AI Daily</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cyrilbouharb.github.io/tags/copilot/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Using Github Copilot from Azure Subscription</title>
-      <link>https://cyrilbouharb.github.io/posts/2026-04-29-using-github-copilot-from-azure-subscription/</link>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://cyrilbouharb.github.io/posts/2026-04-29-using-github-copilot-from-azure-subscription/</guid>
-      <description>&lt;p&gt;Hello,I have a question on how GitHub Copilot can be accessed and managed through an Azure subscription. If I am getting a Github Copilot license, how is my azure subscription getting linked to the billing and licensing?Specifically, I would like clarification on how the Azure subscription is linked to GitHub Copilot billing and licensing. &lt;/p&gt;&#xA;&lt;p&gt;🔗 &lt;a href=&#34;https://techcommunity.microsoft.com/t5/azure/using-github-copilot-from-azure-subscription/m-p/4515847#M22514&#34;&gt;Read the full article&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;Curated by Cyril Bou-Harb — Solution Engineer, Cloud &amp;amp; AI at Microsoft.&lt;/em&gt;&#xA;&lt;em&gt;Views are my own.&lt;/em&gt;&lt;/p&gt;</description>
+      <title>Agent pull requests are everywhere. Here’s how to review them.</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-05-07-agent-pull-requests-are-everywhere-here-s-how-to-review-them/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-05-07-agent-pull-requests-are-everywhere-here-s-how-to-review-them/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;You’ve probably already approved one without realizing it. The tests passed. The code was clean. You merged it.&lt;/p&gt;&#xA;&lt;p&gt;But it was agent-generated—and that ease of approval is exactly the problem.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Add GitHub accounts to your keychain - Visual Studio (Windows)</title>
-      <link>https://cyrilbouharb.github.io/posts/2026-04-24-add-github-accounts-to-your-keychain-visual-studio-windows/</link>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://cyrilbouharb.github.io/posts/2026-04-24-add-github-accounts-to-your-keychain-visual-studio-windows/</guid>
-      <description>&lt;p&gt;Adding public GitHub accounts You can add your public GitHub account at first launch or later, without needing to sign into Visual Studio with a Microsoft account, work account, or sc&amp;hellip; If you have GitHub Copilot installed, you can add a GitHub account with a Copilot subscription by selecting Sign in to use Copilot from the GitHub Copilot status.&lt;/p&gt;&#xA;&lt;p&gt;🔗 &lt;a href=&#34;https://learn.microsoft.com/en-us/visualstudio/ide/work-with-github-accounts&#34;&gt;Read the full article&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;Curated by Cyril Bou-Harb — Solution Engineer, Cloud &amp;amp; AI at Microsoft.&lt;/em&gt;&#xA;&lt;em&gt;Views are my own.&lt;/em&gt;&lt;/p&gt;</description>
+      <title>Improving token efficiency in GitHub Agentic Workflows</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-05-07-improving-token-efficiency-in-github-agentic-workflows/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-05-07-improving-token-efficiency-in-github-agentic-workflows/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;GitHub Agentic Workflows is like a team of street sweepers that clean up little messes in your repo. These teams significantly improve repo hygiene and quality, but as with all agentic work, cost is a growing concern for developers. And because CI jobs like agentic workflows are automatically scheduled and triggered, costs can accumulate out of view.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Get Started with GitHub Copilot - Training</title>
-      <link>https://cyrilbouharb.github.io/posts/2026-04-22-get-started-with-github-copilot-training/</link>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://cyrilbouharb.github.io/posts/2026-04-22-get-started-with-github-copilot-training/</guid>
-      <description>&lt;p&gt;Get started with GitHub Copilot Intermediate Developer GitHub This module introduces developers to the GitHub Copilot products, the benefits that GitHub Copilot provides to developers, the GitHub Copilot and GitHub Copilot Chat product features, and the GitHub Copilot extensions for Visual Studio Code. Add Prerequisites An active subscription for.&lt;/p&gt;&#xA;&lt;p&gt;🔗 &lt;a href=&#34;https://learn.microsoft.com/en-us/training/modules/get-started-github-copilot/&#34;&gt;Read the full article&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;Curated by Cyril Bou-Harb — Solution Engineer, Cloud &amp;amp; AI at Microsoft.&lt;/em&gt;&#xA;&lt;em&gt;Views are my own.&lt;/em&gt;&lt;/p&gt;</description>
+      <title>Validating agentic behavior when “correct” isn’t deterministic</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-05-06-validating-agentic-behavior-when-correct-isn-t-deterministic/</link>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-05-06-validating-agentic-behavior-when-correct-isn-t-deterministic/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;Modern software testing is built on a fragile assumption: correct behavior is repeatable. For deterministic code, that assumption mostly holds. But for autonomous agents like Github Copilot Coding Agent (aka Agent Mode), especially as we explore the frontiers of integrated “Computer Use,” that assumption breaks down almost immediately.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OpenAI’s GPT-5.5 in Microsoft Foundry: Frontier intelligence on an enterprise ready platform</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-04-23-openai-s-gpt-5-5-in-microsoft-foundry-frontier-intelligence-/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-04-23-openai-s-gpt-5-5-in-microsoft-foundry-frontier-intelligence-/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;OpenAI’s GPT-5.5 will be generally available tomorrow inMicrosoft Foundry, bringing OpenAI’s latest frontier model to Azure and the enterprise teams building agents for real production work.&lt;/p&gt;&#xA;&lt;p&gt;GPT-5.5 continues a clear progression in the GPT-5 series. GPT-5 brought unified reasoning and speed into a single system. GPT-5.4 brought stronger multi-step reasoning and early agentic capabilities for enterprise use. GPT-5.5 advances this arc with deeper long-context reasoning, more reliable agentic execution, improved computer-use accuracy, and greater token efficiency—designed for sustained, high-stakes professional workflows.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

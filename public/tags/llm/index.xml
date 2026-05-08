@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LLM on Cyril&#39;s Cloud &amp; AI Daily</title>
+    <link>https://cyrilbouharb.github.io/tags/llm/</link>
+    <description>Recent content in LLM on Cyril&#39;s Cloud &amp; AI Daily</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cyrilbouharb.github.io/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improving token efficiency in GitHub Agentic Workflows</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-05-07-improving-token-efficiency-in-github-agentic-workflows/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-05-07-improving-token-efficiency-in-github-agentic-workflows/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;GitHub Agentic Workflows is like a team of street sweepers that clean up little messes in your repo. These teams significantly improve repo hygiene and quality, but as with all agentic work, cost is a growing concern for developers. And because CI jobs like agentic workflows are automatically scheduled and triggered, costs can accumulate out of view.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

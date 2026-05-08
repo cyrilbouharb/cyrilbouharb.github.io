@@ -26,31 +26,52 @@
     <loc>https://cyrilbouharb.github.io/posts/2026-05-08-welcome/</loc>
     <lastmod>2026-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cyrilbouharb.github.io/tags/azure/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cyrilbouharb.github.io/tags/copilot/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cyrilbouharb.github.io/categories/curated/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cyrilbouharb.github.io/posts/2026-04-29-using-github-copilot-from-azure-subscription/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cyrilbouharb.github.io/tags/foundry/</loc>
-    <lastmod>2026-04-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cyrilbouharb.github.io/posts/2026-04-28-plan-and-prepare-to-develop-ai-solutions-on-azure-training/</loc>
-    <lastmod>2026-04-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cyrilbouharb.github.io/posts/2026-04-24-add-github-accounts-to-your-keychain-visual-studio-windows/</loc>
-    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cyrilbouharb.github.io/tags/ai/</loc>
-    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
+    <loc>https://cyrilbouharb.github.io/posts/2026-05-07-agent-pull-requests-are-everywhere-here-s-how-to-review-them/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cyrilbouharb.github.io/tags/ai-agents/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cyrilbouharb.github.io/categories/analysis/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cyrilbouharb.github.io/tags/architecture/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cyrilbouharb.github.io/tags/copilot/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cyrilbouharb.github.io/tags/data--ai/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cyrilbouharb.github.io/tags/github/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cyrilbouharb.github.io/tags/github-copilot/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cyrilbouharb.github.io/posts/2026-05-07-improving-token-efficiency-in-github-agentic-workflows/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cyrilbouharb.github.io/tags/llm/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cyrilbouharb.github.io/tags/rag/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cyrilbouharb.github.io/tags/foundry/</loc>
+    <lastmod>2026-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cyrilbouharb.github.io/posts/2026-05-06-from-local-to-production-deploy-your-microsoft-agent-framewo/</loc>
+    <lastmod>2026-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cyrilbouharb.github.io/tags/openai/</loc>
+    <lastmod>2026-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cyrilbouharb.github.io/posts/2026-05-06-validating-agentic-behavior-when-correct-isn-t-deterministic/</loc>
+    <lastmod>2026-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cyrilbouharb.github.io/tags/azure-ai/</loc>
     <lastmod>2026-04-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cyrilbouharb.github.io/posts/2026-04-24-azure-mcp-server-now-available-as-an-mcp-bundle-mcpb/</loc>
@@ -59,40 +80,10 @@
     <loc>https://cyrilbouharb.github.io/posts/2026-04-24-chat-history-storage-patterns-in-microsoft-agent-framework/</loc>
     <lastmod>2026-04-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cyrilbouharb.github.io/tags/github/</loc>
-    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cyrilbouharb.github.io/tags/github-copilot/</loc>
-    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cyrilbouharb.github.io/tags/rag/</loc>
-    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://cyrilbouharb.github.io/posts/2026-04-23-codeact-in-agent-framework-faster-agents-with-fewer-model-tu/</loc>
-    <lastmod>2026-04-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cyrilbouharb.github.io/tags/openai/</loc>
     <lastmod>2026-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cyrilbouharb.github.io/posts/2026-04-23-openai-s-gpt-5-5-in-microsoft-foundry-frontier-intelligence-/</loc>
     <lastmod>2026-04-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cyrilbouharb.github.io/posts/2026-04-23-role-based-access-control-for-microsoft-foundry-microsoft-fo/</loc>
-    <lastmod>2026-04-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cyrilbouharb.github.io/tags/azure-ai/</loc>
-    <lastmod>2026-04-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cyrilbouharb.github.io/posts/2026-04-22-get-started-with-github-copilot-training/</loc>
-    <lastmod>2026-04-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cyrilbouharb.github.io/posts/2026-04-22-microsoft-foundry-quickstart-microsoft-foundry/</loc>
-    <lastmod>2026-04-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cyrilbouharb.github.io/posts/2026-04-20-azure-architecture-center-azure-architecture-center/</loc>
-    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cyrilbouharb.github.io/tags/ml/</loc>
-    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url>
 </urlset>

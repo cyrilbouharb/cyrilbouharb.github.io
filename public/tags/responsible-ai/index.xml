@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Responsible AI on Cyril&#39;s Cloud &amp; AI Daily</title>
+    <link>http://localhost:1313/tags/responsible-ai/</link>
+    <description>Recent content in Responsible AI on Cyril&#39;s Cloud &amp; AI Daily</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/responsible-ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft named a Leader in the IDC MarketScape: Worldwide API Management 2026 Vendor Assessment</title>
+      <link>http://localhost:1313/posts/2026-04-28-microsoft-named-a-leader-in-the-idc-marketscape-worldwide-ap/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-04-28-microsoft-named-a-leader-in-the-idc-marketscape-worldwide-ap/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;Azure OpenAI &amp;amp; GPT Models&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;As AI moves into production, how systems interact is fundamentally changing. Organizations must now manage not just APIs, but how AI systems operate across the enterprise.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

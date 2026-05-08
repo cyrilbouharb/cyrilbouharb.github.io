@@ -2,32 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI on Cyril&#39;s Cloud &amp; AI Daily</title>
-    <link>https://cyrilbouharb.github.io/tags/ai/</link>
+    <link>http://localhost:1313/tags/ai/</link>
     <description>Recent content in AI on Cyril&#39;s Cloud &amp; AI Daily</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 24 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cyrilbouharb.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Azure MCP Server now available as an MCP Bundle (.mcpb)</title>
-      <link>https://cyrilbouharb.github.io/posts/2026-04-24-azure-mcp-server-now-available-as-an-mcp-bundle-mcpb/</link>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://cyrilbouharb.github.io/posts/2026-04-24-azure-mcp-server-now-available-as-an-mcp-bundle-mcpb/</guid>
-      <description>&lt;p&gt;Azure MCP Server is now available as an MCP Bundle (.mcpb), enabling one-click installation into Claude Desktop and other MCP-compatible clients.&#xA;The post Azure MCP Server now available as an MCP Bundle (.mcpb) appeared first on Azure SDK Blog.&lt;/p&gt;&#xA;&lt;p&gt;🔗 &lt;a href=&#34;https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-mcpb-support/&#34;&gt;Read the full article&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;Curated by Cyril Bou-Harb — Solution Engineer, Cloud &amp;amp; AI at Microsoft.&lt;/em&gt;&#xA;&lt;em&gt;Views are my own.&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>OpenAI’s GPT-5.5 in Microsoft Foundry: Frontier intelligence on an enterprise ready platform</title>
-      <link>https://cyrilbouharb.github.io/posts/2026-04-23-openai-s-gpt-5-5-in-microsoft-foundry-frontier-intelligence-/</link>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://cyrilbouharb.github.io/posts/2026-04-23-openai-s-gpt-5-5-in-microsoft-foundry-frontier-intelligence-/</guid>
-      <description>&lt;p&gt;OpenAI’s GPT-5.5 will be generally available in Microsoft Foundry, bringing OpenAI’s latest frontier model to Azure and the enterprise teams building agents for real production work.&#xA;The post OpenAI’s GPT-5.5 in Microsoft Foundry: Frontier intelligence on an enterprise ready platform appeared first on Microsoft Azure Blog.&lt;/p&gt;&#xA;&lt;p&gt;🔗 &lt;a href=&#34;https://azure.microsoft.com/en-us/blog/openais-gpt-5-5-in-microsoft-foundry-frontier-intelligence-on-an-enterprise-ready-platform/&#34;&gt;Read the full article&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;Curated by Cyril Bou-Harb — Solution Engineer, Cloud &amp;amp; AI at Microsoft.&lt;/em&gt;&#xA;&lt;em&gt;Views are my own.&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Azure Architecture Center - Azure Architecture Center</title>
-      <link>https://cyrilbouharb.github.io/posts/2026-04-20-azure-architecture-center-azure-architecture-center/</link>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://cyrilbouharb.github.io/posts/2026-04-20-azure-architecture-center-azure-architecture-center/</guid>
-      <description>&lt;p&gt;Popular articles Microsoft Foundry chat baseline architecture Develop and optimize a RAG implementation AI agent orchestration patterns Cloud design patterns Hub-spoke network topology AKS production baseline Choose your Azure compute service AI &amp;amp; Machine Learning AI architecture design Microsoft Foundry chat baseline architecture Build a.&lt;/p&gt;&#xA;&lt;div class=&#34;mermaid&#34;&gt;&#xA;  &#xA;graph LR&#xA;    A[Source] --&gt; B[Processing]&#xA;    B --&gt; C[Output]&#xA;    style A fill:#0078d4,color:#fff&#xA;    style B fill:#50e6ff,color:#000&#xA;    style C fill:#00b294,color:#fff&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;em&gt;Architecture diagram for: Azure Architecture Center - Azure Architecture Center&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
+    <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

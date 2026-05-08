@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data &amp; Analytics on Cyril&#39;s Cloud &amp; AI Daily</title>
+    <link>http://localhost:1313/tags/data--analytics/</link>
+    <description>Recent content in Data &amp; Analytics on Cyril&#39;s Cloud &amp; AI Daily</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/data--analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft Sovereign Private Cloud scales to thousands of nodes with Azure Local</title>
+      <link>http://localhost:1313/posts/2026-04-27-microsoft-sovereign-private-cloud-scales-to-thousands-of-nod/</link>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-04-27-microsoft-sovereign-private-cloud-scales-to-thousands-of-nod/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;Cloud &amp;amp; AI&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;Today, I am pleased to announce that Azure Local now scales to support deployments of up to thousands of servers within a single sovereign environment, allowing organizations to run much larger workloads locally across large-footprint datacenters, industrial environments and edge locations while maintaining control within their sovereign boundary.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

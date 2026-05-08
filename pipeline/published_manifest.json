@@ -1,24 +1,13 @@
 {
   "published_urls": [
-    "https://techcommunity.microsoft.com/t5/azure/using-github-copilot-from-azure-subscription/m-p/4515847#M22514",
+    "https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/",
     "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-mcpb-support/",
+    "https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/",
     "https://azure.microsoft.com/en-us/blog/openais-gpt-5-5-in-microsoft-foundry-frontier-intelligence-on-an-enterprise-ready-platform/",
-    "https://learn.microsoft.com/en-us/azure/architecture/",
-    "https://devblogs.microsoft.com/agent-framework/chat-history-storage-patterns-in-microsoft-agent-framework/",
     "https://devblogs.microsoft.com/agent-framework/codeact-with-hyperlight/",
-    "https://learn.microsoft.com/en-us/azure/foundry/concepts/rbac-foundry",
-    "https://learn.microsoft.com/en-us/azure/foundry/quickstarts/get-started-code",
-    "https://learn.microsoft.com/en-us/training/modules/prepare-azure-ai-development/",
-    "https://learn.microsoft.com/en-us/visualstudio/ide/work-with-github-accounts",
-    "https://learn.microsoft.com/en-us/training/modules/get-started-github-copilot/"
+    "https://devblogs.microsoft.com/agent-framework/from-local-to-production-deploy-your-microsoft-agent-framework-agent-with-foundry-hosted-agents/",
+    "https://devblogs.microsoft.com/agent-framework/chat-history-storage-patterns-in-microsoft-agent-framework/",
+    "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/"
   ],
-  "published_hashes": [
-    "598a8363d6446462",
-    "a1b33e540f11cc27",
-    "5f9189ca04807ac1",
-    "e958609036cf3ca5",
-    "55f364e8fd7252e8",
-    "4203f16058d8a92e",
-    "e4b41773a096c3f7"
-  ]
+  "published_hashes": []
 }
