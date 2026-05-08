@@ -5,7 +5,7 @@ on:
     - cron: '0 5,13 * * *'   # 8am & 4pm UTC+3 (your timezone)
   workflow_dispatch:           # Manual trigger
   push:
-    branches: [main]
+    branches: [master]
 
 permissions:
   contents: read
