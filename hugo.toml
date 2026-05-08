@@ -1,0 +1,30 @@
+baseURL = 'https://cyrilbouharb.github.io/'
+locale = "en-US"
+title = "Cyril's Cloud & AI Daily"
+theme = 'ananke'
+
+[params]
+  description = "Daily insights on Cloud & AI from a Microsoft Solution Engineer"
+  author = "Cyril Bou-Harb"
+  favicon = "/favicon.ico"
+  site_logo = ""
+  text_color = ""
+  background_color_class = "bg-dark-blue"
+  body_classes = "avenir bg-nearest-white"
+  show_reading_time = true
+
+[params.social]
+  github = "cyrilbouharb"
+  linkedin = "cyrilbouharb"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
