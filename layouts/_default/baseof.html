@@ -1,23 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Site.Language.Lang | default "en" }}">
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Copilot · Cyril&#39;s Cloud &amp; AI Daily</title>
-<meta name="description" content="Daily insights on Cloud &amp; AI from a Microsoft Solution Engineer">
-<meta name="author" content="Cyril Bou-Harb">
-<link rel="icon" href="/favicon.ico">
-<meta property="og:title" content="Copilot">
-<meta property="og:description" content="Daily insights on Cloud &amp; AI from a Microsoft Solution Engineer">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://cyrilbouharb.github.io/tags/copilot/">
-<link rel="alternate" type="application/rss+xml" title="Cyril&#39;s Cloud &amp; AI Daily" href="https://cyrilbouharb.github.io/tags/copilot/index.xml">
-
+  {{ partial "head.html" . }}
   <style>
-     
+    /* === Reset === */
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
-     
+    /* === Base === */
     body {
       font-family: Georgia, 'Times New Roman', serif;
       background: #faf9f6;
@@ -30,7 +19,7 @@
     a { color: #0078d4; text-decoration: none; transition: all 0.25s ease; }
     a:hover { color: #005a9e; }
 
-     
+    /* === Header === */
     .site-header {
       background: linear-gradient(135deg, #05051a 0%, #0a0a2e 30%, #0d1b2a 60%, #080820 100%);
       padding: 2.5rem 1.5rem 2rem;
@@ -86,7 +75,7 @@
       border-bottom: 2px solid #50e6ff;
     }
 
-     
+    /* === Header Canvas === */
     .header-canvas {
       position: absolute;
       top: 0; left: 0;
@@ -96,7 +85,7 @@
       z-index: 0;
     }
 
-     
+    /* === Header Logos === */
     .header-logos {
       display: flex;
       align-items: center;
@@ -123,7 +112,7 @@
       margin: 0 0.1rem;
     }
 
-     
+    /* === Header Badges === */
     .header-badges {
       display: flex;
       justify-content: center;
@@ -152,7 +141,7 @@
       box-shadow: 0 0 12px rgba(80,230,255,0.15);
     }
 
-     
+    /* === Main Content === */
     .content-wrap {
       max-width: 720px;
       margin: 0 auto;
@@ -160,7 +149,7 @@
       min-height: 60vh;
     }
 
-     
+    /* === Post Card (List) === */
     .post-card {
       margin-bottom: 2.2rem;
       padding: 1.8rem;
@@ -209,7 +198,7 @@
       margin-bottom: 0.6rem;
     }
 
-     
+    /* === Tags === */
     .tag-list { display: flex; flex-wrap: wrap; gap: 0.4rem; list-style: none; }
     .tag-pill {
       font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
@@ -230,7 +219,7 @@
       transform: scale(1.05);
     }
 
-     
+    /* === Single Post === */
     .post-header { margin-bottom: 2rem; }
     .post-meta {
       font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
@@ -356,7 +345,7 @@
     }
     .back-link:hover { color: #0078d4; }
 
-     
+    /* === Pagination === */
     .pagination {
       display: flex;
       justify-content: space-between;
@@ -371,7 +360,7 @@
     .pagination a:hover { color: #005a9e; }
     .pagination .disabled { color: #ccc; }
 
-     
+    /* === Taxonomy Pages === */
     .page-heading {
       font-size: 1.6rem;
       font-weight: 400;
@@ -398,7 +387,7 @@
       margin-left: 0.4rem;
     }
 
-     
+    /* === Footer === */
     .site-footer {
       text-align: center;
       padding: 2rem 1.5rem;
@@ -414,13 +403,13 @@
     }
     .footer-links a:hover { color: #0078d4; }
 
-     
+    /* === Reading Time === */
     .reading-time { color: #bbb; }
 
-     
+    /* === Mermaid === */
     .mermaid { margin: 1.5rem 0; text-align: center; }
 
-     
+    /* === Dark Mode === */
     @media (prefers-color-scheme: dark) {
       body { background: #0f0f1a; color: #e0e0e0; }
       a { color: #50e6ff; }
@@ -462,7 +451,7 @@
       .footer-links a:hover { color: #50e6ff; }
     }
 
-     
+    /* === Responsive === */
     @media (max-width: 600px) {
       .site-header { padding: 1.8rem 1rem 1.2rem; }
       .site-title { font-size: 1.5rem; }
@@ -475,159 +464,20 @@
   </style>
 </head>
 <body>
-  <header class="site-header">
-  <canvas id="header-particles" class="header-canvas"></canvas>
-  <div class="header-inner">
-    <div class="header-logos">
-      
-      <svg class="header-logo" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="1" width="10" height="10" fill="#f25022"/><rect x="12" y="1" width="10" height="10" fill="#7fba00"/><rect x="1" y="12" width="10" height="10" fill="#00a4ef"/><rect x="12" y="12" width="10" height="10" fill="#ffb900"/></svg>
-      <span class="logo-sep">·</span>
-      
-      <svg class="header-logo" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="az1" x1="43" x2="16" y1="13" y2="93" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#114a8b"/><stop offset="1" stop-color="#0669bc"/></linearGradient><linearGradient id="az2" x1="48" x2="78" y1="10" y2="90" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3ccbf4"/><stop offset="1" stop-color="#2892df"/></linearGradient></defs><path fill="url(#az1)" d="M33.338 6.544h26.038l-27.03 80.087a4.152 4.152 0 0 1-3.933 2.824H8.149a4.145 4.145 0 0 1-3.928-5.47L29.404 9.368a4.152 4.152 0 0 1 3.934-2.825z"/><path fill="#0078d4" d="M71.175 60.261h-41.29a1.911 1.911 0 0 0-1.305 3.309l26.532 24.764a4.171 4.171 0 0 0 2.846 1.121h23.38z"/><path fill="url(#az2)" d="M66.595 9.364a4.145 4.145 0 0 0-3.928-2.82H33.648a4.146 4.146 0 0 1 3.928 2.82l25.184 74.62a4.146 4.146 0 0 1-3.928 5.472h29.02a4.146 4.146 0 0 0 3.927-5.472z"/></svg>
-      <span class="logo-sep">·</span>
-      
-      <svg class="header-logo" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="f1" x1="10.9" x2="13.6" y1="6.3" y2="6.3" gradientUnits="userSpaceOnUse"><stop stop-color="#302EC9"/><stop offset="1" stop-color="#fff"/></linearGradient><linearGradient id="f2" x1="12.3" x2="12.3" y1="11.7" y2="1.8" gradientUnits="userSpaceOnUse"><stop offset=".02" stop-color="#201BA6"/><stop offset=".64" stop-color="#2D29C7"/><stop offset="1" stop-color="#201BA6"/></linearGradient><linearGradient id="f3" x1="14.2" x2="14.2" y1="11.7" y2="5.5" gradientUnits="userSpaceOnUse"><stop stop-color="#3530C3"/><stop offset=".5" stop-color="#6D71D1"/><stop offset="1" stop-color="#E3E4FF"/></linearGradient><linearGradient id="f4" x1="5.6" x2="5.6" y1="17" y2=".8" gradientUnits="userSpaceOnUse"><stop stop-color="#302EC9"/><stop offset=".45" stop-color="#302EC9"/><stop offset=".95" stop-color="#CACAFB"/></linearGradient></defs><path fill="url(#f2)" d="M11.958 11.683c.037 0 .074-.1.074-.238V7.577c0-.853.66-1.76 1.585-2.034-.057-.188-.645-2.112-.81-2.646C12.631 2.335 12.131 1 11.52 1l-.014.001q-.07.013-.135.129c-.32.583-.463 3.015-.463 4.837V8.23c.275.97.912 3.217.961 3.353 0 0 .05.1.088.1"/><path fill="url(#f3)" d="M16.015 5.456h-1.807c-1.214 0-2.175 1.085-2.175 2.109v3.867c0 .139-.037.239-.074.239-.038 0-.088-.1-.088-.1s.075.212.175.212h1.98c.616 0 2.475-.611 2.475-2.52V6.006c0-.414-.237-.551-.486-.551"/><path fill="url(#f4)" d="M2.336 17h5.38c2.346 0 3.194-2.034 3.194-3.807V5.967c0-2.084.188-4.967.612-4.967H8.296c-.768 0-1.43.824-2.178 2.484-.75 1.66-4.357 11.872-4.518 12.355-.262.787-.025 1.161.736 1.161"/></svg>
-      <span class="logo-sep">·</span>
-      
-      <svg class="header-logo" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 0C7.16 0 0 7.16 0 16C0 23.08 4.58 29.06 10.94 31.18C11.74 31.32 12.04 30.84 12.04 30.42C12.04 30.04 12.02 28.78 12.02 27.44C8 28.18 6.96 26.46 6.64 25.56C6.46 25.1 5.68 23.68 5 23.3C4.44 23 3.64 22.26 4.98 22.24C6.24 22.22 7.14 23.4 7.44 23.88C8.88 26.3 11.18 25.62 12.1 25.2C12.24 24.16 12.66 23.46 13.12 23.06C9.56 22.66 5.84 21.28 5.84 15.16C5.84 13.42 6.46 11.98 7.48 10.86C7.32 10.46 6.76 8.82 7.64 6.62C7.64 6.62 8.98 6.2 12.04 8.26C13.32 7.9 14.68 7.72 16.04 7.72C17.4 7.72 18.76 7.9 20.04 8.26C23.1 6.18 24.44 6.62 24.44 6.62C25.32 8.82 24.76 10.46 24.6 10.86C25.62 11.98 26.24 13.4 26.24 15.16C26.24 21.3 22.5 22.66 18.94 23.06C19.52 23.56 20.02 24.52 20.02 26.02C20.02 28.16 20 29.88 20 30.42C20 30.84 20.3 31.34 21.1 31.18C27.42 29.06 32 23.06 32 16C32 7.16 24.84 0 16 0V0Z" fill="white"/></svg>
-    </div>
-    <a href="https://cyrilbouharb.github.io/" class="site-title">Cyril&#39;s Cloud &amp; AI Daily</a>
-    <p class="site-tagline">Daily insights on Cloud &amp; AI from a Microsoft Solution Engineer</p>
-    <div class="header-badges">
-      <span class="badge">Microsoft Foundry</span>
-      <span class="badge">Azure AI</span>
-      <span class="badge">Copilot</span>
-      <span class="badge">Architecture</span>
-    </div>
-    <nav class="site-nav">
-      <a href="https://cyrilbouharb.github.io/" >Home</a>
-      <a href="https://cyrilbouharb.github.io/about/" >About</a>
-      <a href="https://cyrilbouharb.github.io/tags/" class="active">Tags</a>
-    </nav>
-  </div>
-</header>
-<script>
-(function() {
-  const c = document.getElementById('header-particles');
-  if (!c) return;
-  const ctx = c.getContext('2d');
-  let w, h, stars = [], shootingStars = [];
-  function resize() {
-    const header = c.parentElement;
-    w = c.width = header.offsetWidth;
-    h = c.height = header.offsetHeight;
-  }
-  function init() {
-    resize();
-    stars = [];
-    
-    for (let i = 0; i < 120; i++) {
-      stars.push({
-        x: Math.random() * w, y: Math.random() * h,
-        r: Math.random() * 1.2 + 0.3,
-        baseO: Math.random() * 0.6 + 0.2,
-        twinkleSpeed: Math.random() * 0.02 + 0.005,
-        twinklePhase: Math.random() * Math.PI * 2,
-        color: ['255,255,255', '200,220,255', '180,200,255', '255,240,220'][Math.floor(Math.random()*4)]
-      });
-    }
-  }
-  let frame = 0;
-  function draw() {
-    ctx.clearRect(0, 0, w, h);
-    frame++;
-
-    
-    stars.forEach(s => {
-      const o = s.baseO + Math.sin(frame * s.twinkleSpeed + s.twinklePhase) * 0.25;
-      ctx.beginPath();
-      ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(${s.color}, ${Math.max(0.05, o)})`;
-      ctx.fill();
-      
-      if (s.r > 1) {
-        ctx.beginPath();
-        ctx.arc(s.x, s.y, s.r * 3, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(${s.color}, ${o * 0.08})`;
-        ctx.fill();
-      }
-    });
-
-    
-    if (Math.random() < 0.005) {
-      shootingStars.push({
-        x: Math.random() * w, y: Math.random() * h * 0.4,
-        vx: (Math.random() * 3 + 2) * (Math.random() > 0.5 ? 1 : -1),
-        vy: Math.random() * 1.5 + 0.5,
-        life: 1, decay: Math.random() * 0.015 + 0.01,
-        len: Math.random() * 40 + 20
-      });
-    }
-    shootingStars = shootingStars.filter(ss => {
-      ss.x += ss.vx; ss.y += ss.vy; ss.life -= ss.decay;
-      if (ss.life <= 0) return false;
-      const grad = ctx.createLinearGradient(ss.x, ss.y, ss.x - ss.vx * ss.len * 0.3, ss.y - ss.vy * ss.len * 0.3);
-      grad.addColorStop(0, `rgba(180,220,255,${ss.life * 0.8})`);
-      grad.addColorStop(1, 'rgba(180,220,255,0)');
-      ctx.beginPath();
-      ctx.moveTo(ss.x, ss.y);
-      ctx.lineTo(ss.x - ss.vx * ss.len * 0.3, ss.y - ss.vy * ss.len * 0.3);
-      ctx.strokeStyle = grad;
-      ctx.lineWidth = 1.2;
-      ctx.stroke();
-      return true;
-    });
-
-    
-    const nebula = ctx.createRadialGradient(w*0.3, h*0.5, 0, w*0.3, h*0.5, w*0.4);
-    nebula.addColorStop(0, 'rgba(80,100,200,0.03)');
-    nebula.addColorStop(1, 'rgba(0,0,0,0)');
-    ctx.fillStyle = nebula;
-    ctx.fillRect(0,0,w,h);
-
-    const nebula2 = ctx.createRadialGradient(w*0.75, h*0.3, 0, w*0.75, h*0.3, w*0.3);
-    nebula2.addColorStop(0, 'rgba(80,230,255,0.02)');
-    nebula2.addColorStop(1, 'rgba(0,0,0,0)');
-    ctx.fillStyle = nebula2;
-    ctx.fillRect(0,0,w,h);
-
-    requestAnimationFrame(draw);
-  }
-  init();
-  draw();
-  window.addEventListener('resize', () => { resize(); init(); });
-})();
-</script>
-
+  {{ partial "header.html" . }}
   <main class="content-wrap">
-    
-
-<h1 class="page-heading">Tagged: <span>Copilot</span></h1>
-
-
-<article class="post-card">
-  <div class="post-date">April 29, 2026</div>
-  <h2 class="post-card-title"><a href="https://cyrilbouharb.github.io/posts/2026-04-29-using-github-copilot-from-azure-subscription/">Using Github Copilot from Azure Subscription</a></h2>
-  <p class="post-card-desc">Hello,I have a question on how GitHub Copilot can be accessed and managed through an Azure subscription. If I am getting a Github Copilot license, how is my azure subscription getting linked to the bi</p>
-</article>
-
-<article class="post-card">
-  <div class="post-date">May 30, 2025</div>
-  <h2 class="post-card-title"><a href="https://cyrilbouharb.github.io/posts/2025-05-30-official-microsoft-power-platform-documentation-power-platfo/">Official Microsoft Power Platform documentation - Power Platform</a></h2>
-  <p class="post-card-desc">...xtend and develop Learn about developing apps and services in Power Platform using code Architecture Center Guidance for architecting solutions with Power Platform and Copilot Studio using establis</p>
-</article>
-
-
-
+    {{ block "main" . }}{{ end }}
   </main>
-  <footer class="site-footer">
-  <p>&copy; 2026 Cyril Bou-Harb · Solution Engineer, Cloud &amp; AI at Microsoft</p>
-  <p class="footer-links">
-    <a href="https://linkedin.com/in/cyrilbouharb" target="_blank" rel="noopener">LinkedIn</a>
-    <a href="https://github.com/cyrilbouharb" target="_blank" rel="noopener">GitHub</a>
-    <a href="https://cyrilbouharb.github.io/tags/copilot/index.xml" target="_blank" rel="noopener">RSS</a>
-  </p>
-</footer>
+  {{ partial "footer.html" . }}
 
+  {{- if .HasShortcode "mermaid" }}
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'default'
+    });
+  </script>
+  {{- end }}
 </body>
 </html>

@@ -8,14 +8,14 @@ menu: "main"
 
 **Solution Engineer, Cloud & AI — Data & AI at Microsoft**
 
-I help organizations unlock the potential of cloud and AI technologies. This blog is my daily space for sharing insights, new releases, and practical commentary on what's happening in the Microsoft Cloud & AI ecosystem.
+I help organizations build and scale with Microsoft's Cloud & AI platform. This blog is my daily space for sharing what's new, what matters, and what I think about it.
 
 Topics I cover:
-- Azure AI & Data services
-- Microsoft Fabric & Analytics
-- AI/ML platforms and tools
-- Architecture patterns & best practices
-- New product releases and updates
+- **Microsoft Foundry** — building, deploying, and evaluating AI agents
+- **Azure AI Services** — OpenAI, AI Search, Document Intelligence, and more
+- **AI Architecture** — patterns for production-grade AI systems
+- **Copilot Ecosystem** — Copilot Studio, extensions, and platform integrations
+- **Emerging AI** — new models, capabilities, and industry shifts
 
 ---
 

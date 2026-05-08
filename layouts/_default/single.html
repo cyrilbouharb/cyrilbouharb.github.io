@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<article>
+  <header class="post-header">
+    <div class="post-meta">
+      <span>{{ .Date.Format "January 2, 2006" }}</span>
+      {{ if .Site.Params.show_reading_time }}
+      <span class="reading-time">· {{ math.Round (div (countwords .Content) 200.0) }} min read</span>
+      {{ end }}
+    </div>
+    <h1 class="post-title">{{ .Title }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+
+  <footer class="post-footer">
+    {{ with .Params.source_url }}
+    <a class="source-link" href="{{ . }}" target="_blank" rel="noopener">🔗 Read the original source &rarr;</a>
+    {{ end }}
+
+    {{ with .Params.tags }}
+    <ul class="tag-list" style="margin-top: 1rem;">
+      {{ range . }}<li><a class="tag-pill" href="{{ absURL (printf "tags/%s/" (urlize .)) }}">{{ . }}</a></li>{{ end }}
+    </ul>
+    {{ end }}
+
+    <a class="back-link" href="{{ .Site.BaseURL }}">&larr; Back to all posts</a>
+  </footer>
+</article>
+
+{{ end }}

@@ -1,7 +1,7 @@
 baseURL = 'https://cyrilbouharb.github.io/'
 locale = "en-US"
 title = "Cyril's Cloud & AI Daily"
-theme = 'ananke'
+theme = ''
 
 [params]
   description = "Daily insights on Cloud & AI from a Microsoft Solution Engineer"

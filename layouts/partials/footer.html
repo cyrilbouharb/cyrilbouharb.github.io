@@ -1,0 +1,8 @@
+<footer class="site-footer">
+  <p>&copy; {{ now.Year }} {{ .Site.Params.author }} · Solution Engineer, Cloud &amp; AI at Microsoft</p>
+  <p class="footer-links">
+    {{ with .Site.Params.social.linkedin }}<a href="https://linkedin.com/in/{{ . }}" target="_blank" rel="noopener">LinkedIn</a>{{ end }}
+    {{ with .Site.Params.social.github }}<a href="https://github.com/{{ . }}" target="_blank" rel="noopener">GitHub</a>{{ end }}
+    {{ with .OutputFormats.Get "RSS" }}<a href="{{ .Permalink }}" target="_blank" rel="noopener">RSS</a>{{ end }}
+  </p>
+</footer>
