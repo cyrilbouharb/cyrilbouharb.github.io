@@ -19,9 +19,8 @@ from bs4 import BeautifulSoup
 # ── Configuration ──────────────────────────────────────────────
 SOURCES = {
     "devblogs_ai": [
-        "https://devblogs.microsoft.com/semantic-kernel/feed/",
-        "https://devblogs.microsoft.com/azure-sdk/feed/",
         "https://devblogs.microsoft.com/foundry/feed/",
+        "https://devblogs.microsoft.com/azure-sdk/feed/",
     ],
     "tech_community_ai": [
         "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=AI",
@@ -45,8 +44,9 @@ RELEVANT_TOPIC_GROUPS = [
     ["data engineering", "data pipeline", "data lake", "fabric", "synapse",
      "databricks", "real-time analytics", "data warehouse", "power bi",
      "microsoft fabric", "data factory"],
-    ["semantic kernel", "autogen", "langchain", "promptflow", "prompt flow",
-     "responsible ai", "ai safety", "rag ", "retrieval augmented",
+    ["agent framework", "autogen", "langchain", "promptflow", "prompt flow",
+     "responsible ai", "ai safety", "ai citadel", "agentic rag",
+     "foundry iq", "context engineering", "retrieval augmented",
      "vector search", "embedding"],
     ["mlops", "ai architecture", "ai infrastructure", "ai deployment",
      "model deployment", "inference", "fine-tuning", "fine tuning"],
@@ -82,9 +82,9 @@ HTTP_SESSION.headers.update({
 TOPIC_CONTEXT = {
     "foundry": {
         "name": "Microsoft Foundry",
-        "context": "Microsoft Foundry (formerly Azure AI Studio) is Microsoft's unified platform for building, evaluating, and deploying AI applications. It brings together model catalog, prompt engineering, evaluation tools, and deployment pipelines into a single development experience.",
-        "why_matters": "For organizations building AI solutions, Foundry simplifies the journey from prototype to production. It removes the friction of stitching together multiple tools and provides guardrails for responsible AI deployment — which is critical when you're operating at enterprise scale.",
-        "perspective": "From a technical standpoint, Foundry's architecture addresses what I consider the three hardest problems in enterprise AI: **model lifecycle management** (versioning, A/B testing, rollback), **evaluation at scale** (automated quality gates before production), and **governance without friction** (RBAC, content filtering, and audit trails baked into the deployment pipeline rather than bolted on after). What impresses me most is the evaluation framework — the ability to define custom metrics, run batch evaluations against gold-standard datasets, and enforce quality thresholds before a model ever touches production traffic. This is the pattern that separates teams shipping reliable AI from teams firefighting in production. The trace-to-dataset loop (where production traces feed back into evaluation datasets) creates a flywheel that compounds quality over time.",
+        "context": "Microsoft Foundry is Microsoft's unified platform for building, evaluating, and deploying AI agents and applications. It brings together model catalog, Agent Service (prompt agents, workflow agents, hosted agents), Foundry IQ for context engineering, AI Citadel for governance, evaluation pipelines, and deployment infrastructure into a single development experience.",
+        "why_matters": "For organizations building AI agents, Foundry simplifies the journey from prototype to production. It removes the friction of stitching together multiple tools and provides enterprise-grade governance through AI Citadel — policy-based controls, content filtering, and audit trails — which is critical when you're operating at public sector scale.",
+        "perspective": "From a technical standpoint, Foundry's architecture addresses what I consider the four hardest problems in enterprise AI: **model lifecycle management** (versioning, A/B testing, rollback across GPT-5.5, Claude, Gemma, and open-source models), **agent orchestration** (Foundry Agent Service with Microsoft Agent Framework for multi-agent systems), **evaluation at scale** (batch evaluations, continuous monitoring, custom evaluators, and the trace-to-dataset flywheel), and **governance without friction** via AI Citadel (policy-based guardrails, RBAC, content filtering, and audit trails baked into the agent lifecycle rather than bolted on after). The addition of Foundry IQ as the intelligence layer — providing context engineering capabilities so agents can access enterprise knowledge through agentic RAG — is what transforms Foundry from a development platform into an enterprise AI operating system.",
         "business_value": "**For the C-Suite:** Foundry directly impacts three board-level concerns: **time-to-value** (reduces AI project timelines from 6-12 months to weeks by eliminating infrastructure setup), **risk management** (built-in responsible AI guardrails and compliance controls reduce regulatory exposure), and **cost predictability** (unified platform means consolidated billing, no sprawl of point solutions each with their own licensing). The competitive moat here is speed: organizations that can iterate on AI use cases 10x faster will capture market share while competitors are still in proof-of-concept.",
     },
     "copilot": {
@@ -101,12 +101,12 @@ TOPIC_CONTEXT = {
         "perspective": "What's technically significant here goes beyond the headline model capabilities. The real engineering achievement is the **inference infrastructure**: provisioned throughput units (PTUs) that guarantee latency SLAs, global load balancing across regions, and the content filtering pipeline that operates at token-generation speed without perceptible latency impact. From a model architecture perspective, the trend toward reasoning models (o1, o3) vs. instruct models (GPT-4o) creates an interesting technical decision tree: reasoning models excel at multi-step problems but cost 5-10x more per token and have higher latency. The art is knowing when to route to which model class — and Azure's deployment flexibility (multiple model versions behind a single endpoint with traffic splitting) makes this A/B testing practical at enterprise scale.",
         "business_value": "**For the C-Suite:** Azure OpenAI transforms the AI cost equation from 'build vs. buy' to 'compose and differentiate.' Instead of spending $50-200M training proprietary models, organizations access frontier capabilities at consumption-based pricing. The strategic advantage is **data sovereignty** — your prompts, fine-tuning data, and outputs never leave your Azure tenant, never train OpenAI's models, and comply with regional regulations (GDPR, HIPAA, FedRAMP). This isn't a vendor lock-in story — it's a risk mitigation strategy that lets you move fast while staying compliant.",
     },
-    "semantic_kernel": {
-        "name": "Semantic Kernel",
-        "context": "Semantic Kernel is Microsoft's open-source SDK for building AI agents and integrating LLMs into applications. It provides a lightweight, extensible framework for orchestrating AI plugins, planners, and memory.",
-        "why_matters": "As AI applications move beyond simple chat interfaces to multi-step agentic workflows, developers need robust orchestration frameworks. Semantic Kernel provides the building blocks without locking you into a specific model or provider.",
-        "perspective": "The technical elegance of Semantic Kernel lies in its **kernel abstraction** — a clean separation between the orchestration logic and the underlying model provider. This means you can swap GPT-4 for Claude or Llama without touching your application code. But the real power is in the **planner architecture**: the ability to decompose complex user intents into a sequence of function calls (plugins), each with typed inputs/outputs, retry logic, and error handling. The memory layer (short-term conversation memory + long-term vector-backed recall) solves one of the hardest problems in production AI: maintaining coherent context across sessions without ballooning token costs. What I find technically compelling is how SK handles the **function calling handoff** — automatically marshaling between natural language and structured API calls, with built-in validation and type safety.",
-        "business_value": "**For the C-Suite:** Semantic Kernel is a strategic hedge against vendor lock-in. As the AI model landscape fragments (OpenAI, Anthropic, Google, Meta, Mistral), organizations need an abstraction layer that preserves optionality. SK provides this while being production-hardened by Microsoft's own products (M365 Copilot runs on Semantic Kernel). The business case: **reduce integration costs by 60-80%** when switching or adding model providers, and **accelerate AI feature development** by providing pre-built patterns for common enterprise scenarios (RAG, agents, workflows).",
+    "agent_framework": {
+        "name": "Microsoft Agent Framework",
+        "context": "Microsoft Agent Framework (v1.0 GA) is Microsoft's unified multi-agent orchestration SDK for .NET and Python. It provides the production-grade infrastructure for building, composing, and deploying AI agents — from single agents to complex multi-agent systems with handoffs, state management, and observability built in.",
+        "why_matters": "As AI moves from single-model chat to multi-agent systems that plan, execute, and coordinate, developers need a production-hardened framework that handles the orchestration complexity. Agent Framework provides the building blocks — agent lifecycle, tool registration, handoff protocols, and tracing — without locking you into a specific model or hosting environment.",
+        "perspective": "The technical architecture of Microsoft Agent Framework is purpose-built for **multi-agent coordination at production scale**. Three things stand out: **(1) The handoff protocol** — typed, observable agent-to-agent communication with state preservation across handoffs, enabling complex workflows where specialized agents collaborate on decomposed tasks. **(2) OpenTelemetry-native tracing** — every agent decision, tool call, and handoff emits traces directly into Foundry's observability stack, giving you full visibility into multi-step reasoning chains. **(3) CodeAct with Hyperlight** — sandboxed Python code execution in micro-VMs lets agents write and run code safely, creating self-improving loops. The convergence with Foundry Agent Service (hosted agents, prompt agents, workflow agents) means you can go from local development to managed production without rewriting orchestration logic. What's technically compelling is the **composability**: agents built with Agent Framework can be deployed as hosted containers, exposed via Foundry Agent Service, and governed through AI Citadel — all with the same codebase.",
+        "business_value": "**For the C-Suite:** Microsoft Agent Framework is the production backbone for enterprise AI agents. It reduces **agent development cycles from months to weeks** by providing pre-built orchestration patterns, and eliminates the #1 risk in multi-agent systems: unobservable failures. The strategic value: organizations building on Agent Framework get automatic upgrades (new model support, new tool integrations, security patches) without code changes — reducing maintenance burden by 60-80% compared to custom orchestration. It's the platform bet that ensures your agent investments appreciate rather than depreciate.",
     },
     "agents": {
         "name": "AI Agents",
@@ -130,11 +130,11 @@ TOPIC_CONTEXT = {
         "business_value": "**For the C-Suite:** AI architecture decisions made today determine your organization's AI ceiling for the next 3-5 years. Poor architecture creates **technical debt that compounds exponentially** — each new AI use case becomes harder and more expensive to ship. Well-architected AI platforms create the opposite: a **flywheel where each new capability is cheaper and faster to deploy** because the foundational infrastructure (evaluation, monitoring, governance) is already in place. The ROI multiplier: organizations with strong AI platforms ship new AI features 5-10x faster than those building bespoke solutions for each use case.",
     },
     "rag": {
-        "name": "RAG (Retrieval Augmented Generation)",
-        "context": "RAG combines the power of large language models with enterprise knowledge retrieval. By grounding AI responses in your organization's actual data, RAG dramatically reduces hallucinations and delivers accurate, contextual answers.",
-        "why_matters": "RAG is the most practical pattern for enterprise AI today. It lets organizations leverage frontier models while keeping responses grounded in their specific domain knowledge — no fine-tuning required. It's the bridge between general-purpose AI and domain-specific intelligence.",
-        "perspective": "The state of the art in RAG has evolved significantly beyond naive 'chunk and embed.' The technical patterns that differentiate production RAG systems: **(1) Hybrid retrieval** — combining dense vector search with sparse keyword matching (BM25) and reranking (cross-encoders) for dramatically better recall. **(2) Hierarchical chunking** — preserving document structure (sections, paragraphs, sentences) so the model gets both the specific answer *and* surrounding context. **(3) Query decomposition** — breaking complex questions into sub-queries, retrieving for each, then synthesizing. **(4) Evaluation-driven iteration** — measuring retrieval precision/recall and generation faithfulness against ground truth, then systematically improving each component. The teams that treat RAG as an engineering discipline (with proper metrics, baselines, and iteration cycles) consistently outperform those treating it as a one-shot integration.",
-        "business_value": "**For the C-Suite:** RAG is how you turn your proprietary data into a competitive moat. Every enterprise has decades of institutional knowledge locked in documents, emails, and databases — RAG makes this accessible through natural language, **reducing time-to-answer from hours to seconds**. The ROI case: customer support teams using RAG see **50-70% reduction in resolution time**, internal knowledge workers save **2-4 hours per week** on information retrieval. But the strategic value is deeper: RAG-powered systems get better as your data grows, creating a compounding advantage that competitors without your data cannot replicate.",
+        "name": "Agentic RAG & Foundry IQ",
+        "context": "Agentic RAG evolves traditional retrieval-augmented generation into an autonomous, multi-step knowledge retrieval system. Combined with Foundry IQ — Microsoft's enterprise intelligence layer — agents can dynamically plan retrieval strategies, access structured and unstructured knowledge, and ground responses in organizational context without static retrieval pipelines.",
+        "why_matters": "Traditional RAG is a static pipeline: query → retrieve → generate. Agentic RAG flips this — the agent decides *when* to retrieve, *what* to retrieve, and *how many steps* of retrieval to perform based on the complexity of the question. Foundry IQ (alongside Fabric IQ and Work IQ) provides the enterprise intelligence backbone that makes this context engineering practical at scale.",
+        "perspective": "The shift from static RAG to **Agentic RAG** is architecturally significant. Three patterns define the new state of the art: **(1) Agent-driven retrieval planning** — instead of a fixed retrieval step, the agent evaluates query complexity and dynamically decides whether to do single-hop retrieval, multi-hop reasoning across documents, or decompose into parallel sub-queries. **(2) Foundry IQ as context layer** — a unified intelligence surface that combines knowledge indices, enterprise memory, and organizational graph into a single query plane that agents can access through standard tool interfaces. **(3) Context engineering over prompt engineering** — the focus shifts from crafting clever prompts to building robust knowledge pipelines that deliver the right context at the right time. What's technically compelling is how Foundry IQ integrates with Azure AI Search's agentic retrieval mode — the search service itself becomes an agent that can re-rank, filter, and synthesize across heterogeneous data sources. Combined with AI Citadel's governance controls, you get enterprise-grade knowledge access with full auditability.",
+        "business_value": "**For the C-Suite:** Agentic RAG with Foundry IQ transforms your enterprise knowledge from a cost center into a **revenue-generating intelligence asset**. Traditional search gives you documents; Agentic RAG gives you *answers grounded in your entire organizational memory*. The ROI case: **80-90% reduction in knowledge worker research time**, **3-5x improvement in decision quality** (measured by accuracy and completeness vs. manual research). Foundry IQ's enterprise intelligence layer means every AI agent you deploy gets smarter because it draws from the same organizational knowledge graph — creating compounding returns as your data and context grow. Organizations without this intelligence layer are building agents that operate in isolation, repeatedly solving problems your organization has already solved.",
     },
     "default": {
         "name": "Cloud & AI",
@@ -190,10 +190,12 @@ def categorize(title: str, summary: str) -> list[str]:
         "machine learning": "ML", "deep learning": "ML",
         "llm": "LLM", "large language model": "LLM",
         "generative ai": "Generative AI", "gen ai": "Generative AI",
-        "semantic kernel": "Semantic Kernel",
+        "agent framework": "Agent Framework",
         "fabric": "Microsoft Fabric", "synapse": "Data & Analytics",
         "data": "Data & AI", "analytics": "Data & Analytics",
-        "rag": "RAG", "retrieval augmented": "RAG",
+        "agentic rag": "Agentic RAG", "foundry iq": "Foundry IQ",
+        "rag": "Agentic RAG", "retrieval augmented": "Agentic RAG",
+        "ai citadel": "AI Citadel", "context engineering": "Context Engineering",
         "vector": "Vector Search", "embedding": "Embeddings",
         "responsible ai": "Responsible AI", "ai safety": "Responsible AI",
         "architecture": "Architecture", "mlops": "MLOps",
@@ -209,12 +211,12 @@ def detect_primary_topic(title: str, content: str) -> str:
     """Determine the primary topic for commentary context."""
     text = f"{title} {content}".lower()
     topic_scores = {
-        "foundry": ["foundry", "ai studio", "azure ai studio"],
+        "foundry": ["foundry", "ai studio", "azure ai studio", "ai citadel"],
         "copilot": ["copilot", "github copilot"],
         "openai": ["openai", "gpt-4", "gpt-5", "gpt ", "azure openai"],
-        "semantic_kernel": ["semantic kernel"],
-        "agents": ["ai agent", "agent framework", "autogen", "multi-agent"],
-        "rag": ["rag", "retrieval augmented", "vector search", "embedding"],
+        "agent_framework": ["agent framework", "microsoft agent framework"],
+        "agents": ["ai agent", "multi-agent", "autogen", "agentic"],
+        "rag": ["agentic rag", "foundry iq", "context engineering", "rag", "retrieval augmented", "vector search", "embedding"],
         "data": ["fabric", "synapse", "data lake", "data pipeline", "data engineering"],
         "architecture": ["architecture", "design pattern", "reference architecture"],
     }

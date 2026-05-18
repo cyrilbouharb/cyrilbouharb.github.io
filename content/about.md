@@ -19,10 +19,10 @@ I help public sector organizations design and implement AI solutions that drive 
 | Technical | Business & Public Sector |
 |-----------|--------------------------|
 | AI Agents & Multi-Agent Systems | National AI Strategy & Roadmap |
-| Microsoft Foundry & Azure OpenAI | Public Sector Digital Transformation |
-| RAG Architectures & Vector Search | Citizen Services Modernization |
-| Semantic Kernel & AI Orchestration | AI Governance & Sovereignty |
-| API Management & AI Gateway | Regulatory Compliance & Data Residency |
+| Microsoft Foundry & Foundry IQ | Public Sector Digital Transformation |
+| Microsoft Agent Framework | Citizen Services Modernization |
+| Agentic RAG & Context Engineering | AI Governance & AI Citadel |
+| Azure OpenAI & Frontier Models | Regulatory Compliance & Data Sovereignty |
 | GitHub Copilot & Developer Productivity | ROI Modeling & Business Case for Gov |
 
 ### About This Blog
@@ -38,7 +38,7 @@ I write for two audiences simultaneously: the engineer who needs to understand t
 ### Topics I Cover
 
 - **Microsoft Foundry** — Building, deploying, evaluating, and governing AI agents at scale for public sector
-- **AI Architecture** — Production patterns for multi-agent systems, RAG, orchestration, and observability
+- **AI Architecture** — Production patterns for multi-agent systems, Agentic RAG, orchestration, and observability
 - **GitHub Copilot & Agentic AI** — Developer productivity, agent-mode workflows, and government developer enablement
 - **Azure OpenAI & Frontier Models** — Model selection, deployment strategies, data sovereignty, and compliance
 - **Data & AI Convergence** — Microsoft Fabric, intelligent pipelines, and data-driven decision making for government
