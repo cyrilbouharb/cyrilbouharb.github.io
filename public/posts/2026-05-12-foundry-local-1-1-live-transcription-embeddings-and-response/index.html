@@ -653,7 +653,7 @@
     <div class="post-meta">
       <span>May 12, 2026</span>
       
-      <span class="reading-time">· 3 min read</span>
+      <span class="reading-time">· 4 min read</span>
       
     </div>
     <h1 class="post-title">Foundry Local 1.1: Live Transcription, Embeddings, and Responses API</h1>
@@ -733,8 +733,9 @@ from foundry_local_sdk import Configuration, FoundryLocalManager
 <p>RAG is the most practical pattern for enterprise AI today. It lets organizations leverage frontier models while keeping responses grounded in their specific domain knowledge — no fine-tuning required. It&rsquo;s the bridge between general-purpose AI and domain-specific intelligence.</p>
 <p>This development is particularly significant because it reflects the broader industry shift toward making AI more accessible, enterprise-ready, and integrated into existing workflows. For teams already invested in the Microsoft ecosystem, this is a clear signal of where the platform is heading.</p>
 <h2 id="my-take">My Take</h2>
-<p>Every enterprise AI conversation I have eventually comes back to RAG. The pattern is deceptively simple but getting it right — chunking strategy, embedding models, retrieval quality, reranking — requires real engineering discipline. The teams that invest here see the best results.</p>
-<p>If you&rsquo;re exploring this area, my advice is to start small — pick one concrete use case, prototype it, and iterate. The tooling has matured significantly, and the barrier to entry has never been lower.</p>
+<p>The state of the art in RAG has evolved significantly beyond naive &lsquo;chunk and embed.&rsquo; The technical patterns that differentiate production RAG systems: <strong>(1) Hybrid retrieval</strong> — combining dense vector search with sparse keyword matching (BM25) and reranking (cross-encoders) for dramatically better recall. <strong>(2) Hierarchical chunking</strong> — preserving document structure (sections, paragraphs, sentences) so the model gets both the specific answer <em>and</em> surrounding context. <strong>(3) Query decomposition</strong> — breaking complex questions into sub-queries, retrieving for each, then synthesizing. <strong>(4) Evaluation-driven iteration</strong> — measuring retrieval precision/recall and generation faithfulness against ground truth, then systematically improving each component. The teams that treat RAG as an engineering discipline (with proper metrics, baselines, and iteration cycles) consistently outperform those treating it as a one-shot integration.</p>
+<h2 id="business-translation">Business Translation</h2>
+<p><strong>For the C-Suite:</strong> RAG is how you turn your proprietary data into a competitive moat. Every enterprise has decades of institutional knowledge locked in documents, emails, and databases — RAG makes this accessible through natural language, <strong>reducing time-to-answer from hours to seconds</strong>. The ROI case: customer support teams using RAG see <strong>50-70% reduction in resolution time</strong>, internal knowledge workers save <strong>2-4 hours per week</strong> on information retrieval. But the strategic value is deeper: RAG-powered systems get better as your data grows, creating a compounding advantage that competitors without your data cannot replicate.</p>
 <hr>
 <p>📖 <strong><a href="https://devblogs.microsoft.com/foundry/foundry-local-v1-1/">Read the original article</a></strong> for the full details and official documentation.</p>
 <p><em>Written by Cyril Bou-Harb — Solution Engineer, Cloud &amp; AI at Microsoft. Opinions and analysis are my own and do not represent Microsoft&rsquo;s official position.</em></p>
