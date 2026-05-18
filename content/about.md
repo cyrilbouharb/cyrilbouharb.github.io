@@ -12,13 +12,7 @@ I'm a Solution Engineer at Microsoft specializing in Data & AI for the Public Se
 
 ### What I Do
 
-My day-to-day spans the full spectrum of AI solution delivery for public sector transformation:
-
-- **Architecture & Technical Strategy** — Designing AI agent architectures, Azure AI Foundry deployments, multi-agent systems, and API Management + AI Gateway patterns for government and public sector customers
-- **National AI Initiatives** — Contributing to country-level AI programs including CAIT, Ministry of Oil, Ministry of Information, and cross-government digital transformation efforts
-- **Customer Engagements** — Leading architecture reviews, technical validations, and proof-of-concept delivery for public sector AI opportunities (security, citizen services, operational intelligence)
-- **Developer Ecosystem** — Delivering keynotes and hands-on sessions on GitHub Copilot and Agentic AI (GovDev & OilDev Hackathon), enabling government developer communities
-- **Thought Leadership** — Authoring the FY26 Cloud + AI Solution Engineers Playbook, AI Agentic Platform & Governance content, and shaping AI adoption strategies for public institutions
+I help public sector organizations design and implement AI solutions that drive real transformation — from national AI strategies to production-grade agent architectures. My focus is bridging the gap between cutting-edge AI capabilities and the unique requirements of government: sovereignty, compliance, citizen impact, and scale.
 
 ### Areas of Expertise
 
