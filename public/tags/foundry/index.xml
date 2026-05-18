@@ -6,21 +6,35 @@
     <description>Recent content in Foundry on Cyril&#39;s Cloud &amp; AI Daily</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 06 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cyrilbouharb.github.io/tags/foundry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Governance at the Speed of Agents: Microsoft Agent Framework and Agent Governance Toolkit, Better Together</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-05-14-governance-at-the-speed-of-agents-microsoft-agent-framework-/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-05-14-governance-at-the-speed-of-agents-microsoft-agent-framework-/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;Azure OpenAI &amp;amp; GPT Models&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;Building powerful AI agents is only half the story, running them safely in production is the real challenge. As customers adopt Microsoft Agent Framework for agent orchestration, a clear need has emerged for robust, built-in governance. In this post, Imran Siddique from the AGT team walks through how Agent Governance Toolkit pairs with Agent Framework to enforce policy at runtime, govern agent actions, and provide end-to-end auditability. Turning agentic systems into production-ready platforms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Foundry Local 1.1: Live Transcription, Embeddings, and Responses API</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-05-12-foundry-local-1-1-live-transcription-embeddings-and-response/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-05-12-foundry-local-1-1-live-transcription-embeddings-and-response/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;RAG (Retrieval Augmented Generation)&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;Today we’re announcing the1.1.0 release of Foundry Local— Microsoft’s cross-platform local AI solution that lets developers bringAI directly into their applicationswith no cloud dependency, no network latency, and no per-token costs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What’s new in Microsoft Foundry | April 2026</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-05-12-what-s-new-in-microsoft-foundry-april-2026/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-05-12-what-s-new-in-microsoft-foundry-april-2026/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;Azure OpenAI &amp;amp; GPT Models&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;h3 id=&#34;tldr&#34;&gt;TL;DR&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Foundry Local (generally available, GA):Local model inference is production-ready on Windows, macOS on Apple Silicon, and Linux x64.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;GPT-5.5:The latest GPT-5 family model is available in Microsoft Foundry, with default quota for Tier 5 and Tier 6 subscriptions.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>From Local to Production: Deploy Your Microsoft Agent Framework Agent with Foundry Hosted Agents</title>
       <link>https://cyrilbouharb.github.io/posts/2026-05-06-from-local-to-production-deploy-your-microsoft-agent-framewo/</link>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
       <guid>https://cyrilbouharb.github.io/posts/2026-05-06-from-local-to-production-deploy-your-microsoft-agent-framewo/</guid>
       <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;Microsoft Foundry&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;Once you have your Microsoft Agent Framework (MAF) agent or workflow happily running locally on your dev machine, it’s time to decide how to deploy your agent to production, monitor it, evaluate it and version it. These decisions are just as important as getting the agent running.Hosted Agents in Foundry Agent Serviceis the easiest way to deploy Agent Framework agent to the cloud – with built-in identity, automatic scaling, managed session state, observability, and versioning.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Azure MCP Server now available as an MCP Bundle (.mcpb)</title>
-      <link>https://cyrilbouharb.github.io/posts/2026-04-24-azure-mcp-server-now-available-as-an-mcp-bundle-mcpb/</link>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://cyrilbouharb.github.io/posts/2026-04-24-azure-mcp-server-now-available-as-an-mcp-bundle-mcpb/</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;Microsoft Foundry&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;We’re excited to announce that theAzure MCP Serveris now available as anMCP Bundle(.mcpb). This means you can install the Azure MCP Server intoClaude Desktopand other MCP-compatible clients with minimum setup—no Node.js, Python, or .NET runtime required.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Chat History Storage Patterns in Microsoft Agent Framework</title>
@@ -30,11 +44,25 @@
       <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;Azure OpenAI &amp;amp; GPT Models&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;When people talk about building AI agents, they usually focus on models, tools, and prompts. In practice, one of the most important architectural decisions is much simpler:where does the conversation history live?&lt;/p&gt;</description>
     </item>
     <item>
-      <title>OpenAI’s GPT-5.5 in Microsoft Foundry: Frontier intelligence on an enterprise ready platform</title>
-      <link>https://cyrilbouharb.github.io/posts/2026-04-23-openai-s-gpt-5-5-in-microsoft-foundry-frontier-intelligence-/</link>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://cyrilbouharb.github.io/posts/2026-04-23-openai-s-gpt-5-5-in-microsoft-foundry-frontier-intelligence-/</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;OpenAI’s GPT-5.5 will be generally available tomorrow inMicrosoft Foundry, bringing OpenAI’s latest frontier model to Azure and the enterprise teams building agents for real production work.&lt;/p&gt;&#xA;&lt;p&gt;GPT-5.5 continues a clear progression in the GPT-5 series. GPT-5 brought unified reasoning and speed into a single system. GPT-5.4 brought stronger multi-step reasoning and early agentic capabilities for enterprise use. GPT-5.5 advances this arc with deeper long-context reasoning, more reliable agentic execution, improved computer-use accuracy, and greater token efficiency—designed for sustained, high-stakes professional workflows.&lt;/p&gt;</description>
+      <title>From Local to Production: The Complete Developer Journey for Building, Composing, and Deploying AI Agents</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-04-22-from-local-to-production-the-complete-developer-journey-for-/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-04-22-from-local-to-production-the-complete-developer-journey-for-/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;AI Agents&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;When we launchedMicrosoft Agent Frameworklast October, we made a promise: building production-grade AI agents should feel as natural and structured as building any other software.&lt;/p&gt;&#xA;&lt;p&gt;Today, we’re delivering on that promise — with thev1.0 release of Microsoft Agent Frameworkand thegeneral availability ofFoundry Toolkitfor Visual Studio Code(formerly AI Toolkit for VS Code), new capabilities inmemory(preview) in Foundry Agent Service,Toolbox in Foundry(preview) to give your agents the right tools, a faster and more securehostedagentsexperience in Foundry Agent Service (preview), andObservability in Foundry Control Planereaching full GA on core capabilities including end-to-end tracing now in place.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introducing the new hosted agents in Foundry Agent Service: secure, scalable compute built for agents</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-04-22-introducing-the-new-hosted-agents-in-foundry-agent-service-s/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-04-22-introducing-the-new-hosted-agents-in-foundry-agent-service-s/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;Agents are already transforming how developers solve problems. Whether it’s a coding agent that refactors your repo overnight, a research agent that synthesizes hundreds of documents into a brief, or an ops agent that monitors and remediates infrastructure — the pattern is clear. Developers are building agents that don’t just answer questions, they go do things.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introducing Toolboxes in Foundry</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-04-22-introducing-toolboxes-in-foundry/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-04-22-introducing-toolboxes-in-foundry/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;h3 id=&#34;available-in-public-preview-today&#34;&gt;Available in Public Preview Today&lt;/h3&gt;&#xA;&lt;p&gt;Toolbox is a new way tocurate, configure, and reusetools across all of your AI agents without rewiring them every time from Foundry.&lt;/p&gt;&#xA;&lt;p&gt;Today, teams build agents across different frameworks and runtimes. Each agent often wires tools directly, with its own authentication, credentials, and integration code. As organizations scale agent usage, this leads to duplicated work, inconsistent behavior, and fragile production deployments.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

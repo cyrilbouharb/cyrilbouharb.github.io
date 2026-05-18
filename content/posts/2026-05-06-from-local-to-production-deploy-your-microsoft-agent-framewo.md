@@ -57,27 +57,6 @@ Working with enterprise customers, I see Foundry as a game-changer for teams tha
 If you're exploring this area, my advice is to start small — pick one concrete use case, prototype it, and iterate. The tooling has matured significantly, and the barrier to entry has never been lower.
 
 
-## Architecture Overview
-
-{{< mermaid >}}
-graph TB
-    A[Data Sources] --> B[Ingestion Layer]
-    B --> C[Processing & AI]
-    C --> D[Model / Agent]
-    D --> E[Application Layer]
-    E --> F[End Users]
-
-    style A fill:#0078d4,color:#fff
-    style B fill:#50e6ff,color:#000
-    style C fill:#7719aa,color:#fff
-    style D fill:#00b294,color:#fff
-    style E fill:#ffb900,color:#000
-    style F fill:#0078d4,color:#fff
-{{< /mermaid >}}
-
-*High-level architecture — the specific implementation will vary based on your use case and scale requirements.*
-
-
 ---
 
 📖 **[Read the original article](https://devblogs.microsoft.com/agent-framework/from-local-to-production-deploy-your-microsoft-agent-framework-agent-with-foundry-hosted-agents/)** for the full details and official documentation.

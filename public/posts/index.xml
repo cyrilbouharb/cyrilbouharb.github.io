@@ -6,28 +6,42 @@
     <description>Recent content in Posts on Cyril&#39;s Cloud &amp; AI Daily</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cyrilbouharb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Take your local GitHub sessions anywhere</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-05-18-take-your-local-github-sessions-anywhere/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-05-18-take-your-local-github-sessions-anywhere/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;The best GitHub Copilot workflows don’t happen one–thing–at–a time. You might have an agent refactoring a module in VS Code, another debugging tests in the CLI, and a third scaffolding a new feature in the background.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Governance at the Speed of Agents: Microsoft Agent Framework and Agent Governance Toolkit, Better Together</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-05-14-governance-at-the-speed-of-agents-microsoft-agent-framework-/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-05-14-governance-at-the-speed-of-agents-microsoft-agent-framework-/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;Azure OpenAI &amp;amp; GPT Models&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;Building powerful AI agents is only half the story, running them safely in production is the real challenge. As customers adopt Microsoft Agent Framework for agent orchestration, a clear need has emerged for robust, built-in governance. In this post, Imran Siddique from the AGT team walks through how Agent Governance Toolkit pairs with Agent Framework to enforce policy at runtime, govern agent actions, and provide end-to-end auditability. Turning agentic systems into production-ready platforms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Foundry Local 1.1: Live Transcription, Embeddings, and Responses API</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-05-12-foundry-local-1-1-live-transcription-embeddings-and-response/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-05-12-foundry-local-1-1-live-transcription-embeddings-and-response/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;RAG (Retrieval Augmented Generation)&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;Today we’re announcing the1.1.0 release of Foundry Local— Microsoft’s cross-platform local AI solution that lets developers bringAI directly into their applicationswith no cloud dependency, no network latency, and no per-token costs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What’s new in Microsoft Foundry | April 2026</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-05-12-what-s-new-in-microsoft-foundry-april-2026/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-05-12-what-s-new-in-microsoft-foundry-april-2026/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;Azure OpenAI &amp;amp; GPT Models&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;h3 id=&#34;tldr&#34;&gt;TL;DR&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Foundry Local (generally available, GA):Local model inference is production-ready on Windows, macOS on Apple Silicon, and Linux x64.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;GPT-5.5:The latest GPT-5 family model is available in Microsoft Foundry, with default quota for Tier 5 and Tier 6 subscriptions.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Welcome to My Blog</title>
       <link>https://cyrilbouharb.github.io/posts/2026-05-08-welcome/</link>
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
       <guid>https://cyrilbouharb.github.io/posts/2026-05-08-welcome/</guid>
       <description>&lt;p&gt;This is the very first entry. A blank page is both terrifying and exciting — it can become anything. The plan is simple: show up every day, write something honest, and hit save. No rules on length or topic. Just words.&lt;/p&gt;&#xA;&lt;p&gt;What you&amp;rsquo;ll find here:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Daily curated content&lt;/strong&gt; from the Microsoft Cloud &amp;amp; AI ecosystem&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Personal commentary&lt;/strong&gt; on new releases, documentation updates, and community discussions&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Architecture diagrams&lt;/strong&gt; when I&amp;rsquo;m breaking down how things work&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Podcast versions&lt;/strong&gt; of posts for when you&amp;rsquo;d rather listen&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s to day one. 🚀&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Agent pull requests are everywhere. Here’s how to review them.</title>
-      <link>https://cyrilbouharb.github.io/posts/2026-05-07-agent-pull-requests-are-everywhere-here-s-how-to-review-them/</link>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://cyrilbouharb.github.io/posts/2026-05-07-agent-pull-requests-are-everywhere-here-s-how-to-review-them/</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;You’ve probably already approved one without realizing it. The tests passed. The code was clean. You merged it.&lt;/p&gt;&#xA;&lt;p&gt;But it was agent-generated—and that ease of approval is exactly the problem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Improving token efficiency in GitHub Agentic Workflows</title>
-      <link>https://cyrilbouharb.github.io/posts/2026-05-07-improving-token-efficiency-in-github-agentic-workflows/</link>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://cyrilbouharb.github.io/posts/2026-05-07-improving-token-efficiency-in-github-agentic-workflows/</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;GitHub Agentic Workflows is like a team of street sweepers that clean up little messes in your repo. These teams significantly improve repo hygiene and quality, but as with all agentic work, cost is a growing concern for developers. And because CI jobs like agentic workflows are automatically scheduled and triggered, costs can accumulate out of view.&lt;/p&gt;</description>
     </item>
     <item>
       <title>From Local to Production: Deploy Your Microsoft Agent Framework Agent with Foundry Hosted Agents</title>
@@ -37,20 +51,6 @@
       <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;Microsoft Foundry&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;Once you have your Microsoft Agent Framework (MAF) agent or workflow happily running locally on your dev machine, it’s time to decide how to deploy your agent to production, monitor it, evaluate it and version it. These decisions are just as important as getting the agent running.Hosted Agents in Foundry Agent Serviceis the easiest way to deploy Agent Framework agent to the cloud – with built-in identity, automatic scaling, managed session state, observability, and versioning.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Validating agentic behavior when “correct” isn’t deterministic</title>
-      <link>https://cyrilbouharb.github.io/posts/2026-05-06-validating-agentic-behavior-when-correct-isn-t-deterministic/</link>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://cyrilbouharb.github.io/posts/2026-05-06-validating-agentic-behavior-when-correct-isn-t-deterministic/</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;Modern software testing is built on a fragile assumption: correct behavior is repeatable. For deterministic code, that assumption mostly holds. But for autonomous agents like Github Copilot Coding Agent (aka Agent Mode), especially as we explore the frontiers of integrated “Computer Use,” that assumption breaks down almost immediately.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Azure MCP Server now available as an MCP Bundle (.mcpb)</title>
-      <link>https://cyrilbouharb.github.io/posts/2026-04-24-azure-mcp-server-now-available-as-an-mcp-bundle-mcpb/</link>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://cyrilbouharb.github.io/posts/2026-04-24-azure-mcp-server-now-available-as-an-mcp-bundle-mcpb/</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;Microsoft Foundry&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;We’re excited to announce that theAzure MCP Serveris now available as anMCP Bundle(.mcpb). This means you can install the Azure MCP Server intoClaude Desktopand other MCP-compatible clients with minimum setup—no Node.js, Python, or .NET runtime required.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Chat History Storage Patterns in Microsoft Agent Framework</title>
       <link>https://cyrilbouharb.github.io/posts/2026-04-24-chat-history-storage-patterns-in-microsoft-agent-framework/</link>
       <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
@@ -58,18 +58,25 @@
       <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;Azure OpenAI &amp;amp; GPT Models&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;When people talk about building AI agents, they usually focus on models, tools, and prompts. In practice, one of the most important architectural decisions is much simpler:where does the conversation history live?&lt;/p&gt;</description>
     </item>
     <item>
-      <title>CodeAct in Agent Framework: Faster Agents with Fewer Model Turns</title>
-      <link>https://cyrilbouharb.github.io/posts/2026-04-23-codeact-in-agent-framework-faster-agents-with-fewer-model-tu/</link>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://cyrilbouharb.github.io/posts/2026-04-23-codeact-in-agent-framework-faster-agents-with-fewer-model-tu/</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;AI Agents&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;Modern AI agents often aren’t bottlenecked by model quality, they are bottlenecked by orchestration overhead. When an agent chains together many small tool calls, each step typically requires a new model turn, driving up latency and token usage.&lt;/p&gt;</description>
+      <title>From Local to Production: The Complete Developer Journey for Building, Composing, and Deploying AI Agents</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-04-22-from-local-to-production-the-complete-developer-journey-for-/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-04-22-from-local-to-production-the-complete-developer-journey-for-/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;AI Agents&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;When we launchedMicrosoft Agent Frameworklast October, we made a promise: building production-grade AI agents should feel as natural and structured as building any other software.&lt;/p&gt;&#xA;&lt;p&gt;Today, we’re delivering on that promise — with thev1.0 release of Microsoft Agent Frameworkand thegeneral availability ofFoundry Toolkitfor Visual Studio Code(formerly AI Toolkit for VS Code), new capabilities inmemory(preview) in Foundry Agent Service,Toolbox in Foundry(preview) to give your agents the right tools, a faster and more securehostedagentsexperience in Foundry Agent Service (preview), andObservability in Foundry Control Planereaching full GA on core capabilities including end-to-end tracing now in place.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>OpenAI’s GPT-5.5 in Microsoft Foundry: Frontier intelligence on an enterprise ready platform</title>
-      <link>https://cyrilbouharb.github.io/posts/2026-04-23-openai-s-gpt-5-5-in-microsoft-foundry-frontier-intelligence-/</link>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://cyrilbouharb.github.io/posts/2026-04-23-openai-s-gpt-5-5-in-microsoft-foundry-frontier-intelligence-/</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;OpenAI’s GPT-5.5 will be generally available tomorrow inMicrosoft Foundry, bringing OpenAI’s latest frontier model to Azure and the enterprise teams building agents for real production work.&lt;/p&gt;&#xA;&lt;p&gt;GPT-5.5 continues a clear progression in the GPT-5 series. GPT-5 brought unified reasoning and speed into a single system. GPT-5.4 brought stronger multi-step reasoning and early agentic capabilities for enterprise use. GPT-5.5 advances this arc with deeper long-context reasoning, more reliable agentic execution, improved computer-use accuracy, and greater token efficiency—designed for sustained, high-stakes professional workflows.&lt;/p&gt;</description>
+      <title>Introducing the new hosted agents in Foundry Agent Service: secure, scalable compute built for agents</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-04-22-introducing-the-new-hosted-agents-in-foundry-agent-service-s/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-04-22-introducing-the-new-hosted-agents-in-foundry-agent-service-s/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;Agents are already transforming how developers solve problems. Whether it’s a coding agent that refactors your repo overnight, a research agent that synthesizes hundreds of documents into a brief, or an ops agent that monitors and remediates infrastructure — the pattern is clear. Developers are building agents that don’t just answer questions, they go do things.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introducing Toolboxes in Foundry</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-04-22-introducing-toolboxes-in-foundry/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-04-22-introducing-toolboxes-in-foundry/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;h3 id=&#34;available-in-public-preview-today&#34;&gt;Available in Public Preview Today&lt;/h3&gt;&#xA;&lt;p&gt;Toolbox is a new way tocurate, configure, and reusetools across all of your AI agents without rewiring them every time from Foundry.&lt;/p&gt;&#xA;&lt;p&gt;Today, teams build agents across different frameworks and runtimes. Each agent often wires tools directly, with its own authentication, credentials, and integration code. As organizations scale agent usage, this leads to duplicated work, inconsistent behavior, and fragile production deployments.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

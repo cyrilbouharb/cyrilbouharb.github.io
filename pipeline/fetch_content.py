@@ -18,12 +18,10 @@ from bs4 import BeautifulSoup
 
 # ── Configuration ──────────────────────────────────────────────
 SOURCES = {
-    "azure_ai_blog": [
-        "https://azure.microsoft.com/en-us/blog/feed/",
-    ],
-    "devblogs": [
-        "https://devblogs.microsoft.com/azure-sdk/feed/",
+    "devblogs_ai": [
         "https://devblogs.microsoft.com/semantic-kernel/feed/",
+        "https://devblogs.microsoft.com/azure-sdk/feed/",
+        "https://devblogs.microsoft.com/foundry/feed/",
     ],
     "tech_community_ai": [
         "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=AI",
@@ -444,34 +442,6 @@ def build_blog_post(entry: dict, scraped: dict) -> str:
         "pick one concrete use case, prototype it, and iterate. The tooling "
         "has matured significantly, and the barrier to entry has never been lower.\n"
     )
-
-    # ── Architecture diagram if applicable ──
-    text_lower = (title + " " + full_text).lower()
-    if any(kw in text_lower for kw in [
-        "architecture", "pipeline", "workflow", "integration",
-        "deploy", "infrastructure", "pattern"
-    ]):
-        body_parts.append("""
-## Architecture Overview
-
-{{< mermaid >}}
-graph TB
-    A[Data Sources] --> B[Ingestion Layer]
-    B --> C[Processing & AI]
-    C --> D[Model / Agent]
-    D --> E[Application Layer]
-    E --> F[End Users]
-
-    style A fill:#0078d4,color:#fff
-    style B fill:#50e6ff,color:#000
-    style C fill:#7719aa,color:#fff
-    style D fill:#00b294,color:#fff
-    style E fill:#ffb900,color:#000
-    style F fill:#0078d4,color:#fff
-{{< /mermaid >}}
-
-*High-level architecture — the specific implementation will vary based on your use case and scale requirements.*
-""")
 
     # ── Closing ──
     body_parts.append(f"""

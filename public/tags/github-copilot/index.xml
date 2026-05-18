@@ -6,28 +6,35 @@
     <description>Recent content in GitHub Copilot on Cyril&#39;s Cloud &amp; AI Daily</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cyrilbouharb.github.io/tags/github-copilot/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Agent pull requests are everywhere. Here’s how to review them.</title>
-      <link>https://cyrilbouharb.github.io/posts/2026-05-07-agent-pull-requests-are-everywhere-here-s-how-to-review-them/</link>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://cyrilbouharb.github.io/posts/2026-05-07-agent-pull-requests-are-everywhere-here-s-how-to-review-them/</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;You’ve probably already approved one without realizing it. The tests passed. The code was clean. You merged it.&lt;/p&gt;&#xA;&lt;p&gt;But it was agent-generated—and that ease of approval is exactly the problem.&lt;/p&gt;</description>
+      <title>Take your local GitHub sessions anywhere</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-05-18-take-your-local-github-sessions-anywhere/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-05-18-take-your-local-github-sessions-anywhere/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;The best GitHub Copilot workflows don’t happen one–thing–at–a time. You might have an agent refactoring a module in VS Code, another debugging tests in the CLI, and a third scaffolding a new feature in the background.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Validating agentic behavior when “correct” isn’t deterministic</title>
-      <link>https://cyrilbouharb.github.io/posts/2026-05-06-validating-agentic-behavior-when-correct-isn-t-deterministic/</link>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://cyrilbouharb.github.io/posts/2026-05-06-validating-agentic-behavior-when-correct-isn-t-deterministic/</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;Modern software testing is built on a fragile assumption: correct behavior is repeatable. For deterministic code, that assumption mostly holds. But for autonomous agents like Github Copilot Coding Agent (aka Agent Mode), especially as we explore the frontiers of integrated “Computer Use,” that assumption breaks down almost immediately.&lt;/p&gt;</description>
+      <title>From Local to Production: The Complete Developer Journey for Building, Composing, and Deploying AI Agents</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-04-22-from-local-to-production-the-complete-developer-journey-for-/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-04-22-from-local-to-production-the-complete-developer-journey-for-/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;AI Agents&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;When we launchedMicrosoft Agent Frameworklast October, we made a promise: building production-grade AI agents should feel as natural and structured as building any other software.&lt;/p&gt;&#xA;&lt;p&gt;Today, we’re delivering on that promise — with thev1.0 release of Microsoft Agent Frameworkand thegeneral availability ofFoundry Toolkitfor Visual Studio Code(formerly AI Toolkit for VS Code), new capabilities inmemory(preview) in Foundry Agent Service,Toolbox in Foundry(preview) to give your agents the right tools, a faster and more securehostedagentsexperience in Foundry Agent Service (preview), andObservability in Foundry Control Planereaching full GA on core capabilities including end-to-end tracing now in place.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>OpenAI’s GPT-5.5 in Microsoft Foundry: Frontier intelligence on an enterprise ready platform</title>
-      <link>https://cyrilbouharb.github.io/posts/2026-04-23-openai-s-gpt-5-5-in-microsoft-foundry-frontier-intelligence-/</link>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://cyrilbouharb.github.io/posts/2026-04-23-openai-s-gpt-5-5-in-microsoft-foundry-frontier-intelligence-/</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;OpenAI’s GPT-5.5 will be generally available tomorrow inMicrosoft Foundry, bringing OpenAI’s latest frontier model to Azure and the enterprise teams building agents for real production work.&lt;/p&gt;&#xA;&lt;p&gt;GPT-5.5 continues a clear progression in the GPT-5 series. GPT-5 brought unified reasoning and speed into a single system. GPT-5.4 brought stronger multi-step reasoning and early agentic capabilities for enterprise use. GPT-5.5 advances this arc with deeper long-context reasoning, more reliable agentic execution, improved computer-use accuracy, and greater token efficiency—designed for sustained, high-stakes professional workflows.&lt;/p&gt;</description>
+      <title>Introducing the new hosted agents in Foundry Agent Service: secure, scalable compute built for agents</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-04-22-introducing-the-new-hosted-agents-in-foundry-agent-service-s/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-04-22-introducing-the-new-hosted-agents-in-foundry-agent-service-s/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;Agents are already transforming how developers solve problems. Whether it’s a coding agent that refactors your repo overnight, a research agent that synthesizes hundreds of documents into a brief, or an ops agent that monitors and remediates infrastructure — the pattern is clear. Developers are building agents that don’t just answer questions, they go do things.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introducing Toolboxes in Foundry</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-04-22-introducing-toolboxes-in-foundry/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-04-22-introducing-toolboxes-in-foundry/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;GitHub Copilot&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;h3 id=&#34;available-in-public-preview-today&#34;&gt;Available in Public Preview Today&lt;/h3&gt;&#xA;&lt;p&gt;Toolbox is a new way tocurate, configure, and reusetools across all of your AI agents without rewiring them every time from Foundry.&lt;/p&gt;&#xA;&lt;p&gt;Today, teams build agents across different frameworks and runtimes. Each agent often wires tools directly, with its own authentication, credentials, and integration code. As organizations scale agent usage, this leads to duplicated work, inconsistent behavior, and fragile production deployments.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

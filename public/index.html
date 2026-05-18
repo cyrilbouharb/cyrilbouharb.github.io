@@ -464,15 +464,61 @@
     }
 
      
-    @media (max-width: 600px) {
-      .site-header { padding: 1.8rem 1rem 1.2rem; }
-      .site-title { font-size: 1.5rem; }
-      .site-tagline { font-size: 0.85rem; }
-      .content-wrap { padding: 1.5rem 1rem 3rem; }
-      .post-title { font-size: 1.5rem; }
-      .post-card-title { font-size: 1.2rem; }
-      .post-content { text-align: left; }
+    @media (max-width: 1024px) {
+      .content-wrap { max-width: 90%; padding: 2rem 1.2rem 3rem; }
+      .post-card { padding: 1.5rem; }
     }
+    @media (max-width: 768px) {
+      .site-header { padding: 2rem 1rem 1.5rem; }
+      .site-title { font-size: 1.5rem; }
+      .site-tagline { font-size: 0.82rem; }
+      .header-logos { gap: 0.4rem; }
+      .header-logo { width: 26px; height: 26px; }
+      .badge { font-size: 0.58rem; padding: 0.2rem 0.5rem; }
+      .site-nav { font-size: 0.72rem; }
+      .site-nav a { margin: 0 0.5rem; }
+      .content-wrap { max-width: 100%; padding: 1.5rem 1rem 3rem; }
+      .post-card { padding: 1.3rem; margin-bottom: 1.5rem; }
+      .post-card-title { font-size: 1.2rem; }
+      .post-card-desc { font-size: 0.9rem; }
+      .post-title { font-size: 1.6rem; }
+      .post-content h2 { font-size: 1.25rem; }
+      .post-content h3 { font-size: 1.05rem; }
+      .post-content { text-align: left; font-size: 0.95rem; }
+      .post-content pre { padding: 0.9rem; font-size: 0.8rem; }
+      .pagination { flex-direction: column; gap: 0.8rem; text-align: center; }
+      .page-heading { font-size: 1.3rem; }
+    }
+    @media (max-width: 480px) {
+      .site-header { padding: 1.5rem 0.8rem 1.2rem; }
+      .site-title { font-size: 1.3rem; }
+      .header-logos { gap: 0.3rem; margin-bottom: 0.8rem; }
+      .header-logo { width: 22px; height: 22px; }
+      .header-badges { gap: 0.3rem; }
+      .badge { font-size: 0.55rem; padding: 0.18rem 0.45rem; }
+      .site-nav a { margin: 0 0.35rem; font-size: 0.68rem; }
+      .content-wrap { padding: 1.2rem 0.8rem 2.5rem; }
+      .post-card { padding: 1rem; border-radius: 6px; }
+      .post-card-title { font-size: 1.1rem; }
+      .post-title { font-size: 1.4rem; }
+      .post-content { font-size: 0.92rem; line-height: 1.7; }
+      .post-content blockquote { padding: 0.6rem 1rem; margin: 1rem 0; }
+      .post-content pre { border-radius: 4px; margin: 1rem 0; }
+      .tag-pill { font-size: 0.62rem; padding: 0.2rem 0.55rem; }
+      .source-link { font-size: 0.8rem; padding: 0.5rem 1rem; width: 100%; text-align: center; }
+      .post-meta { font-size: 0.72rem; }
+      .post-meta span { display: block; margin-bottom: 0.2rem; }
+      .site-footer { font-size: 0.72rem; padding: 1.5rem 0.8rem; }
+    }
+
+     
+    @media (hover: none) and (pointer: coarse) {
+      .site-nav a { padding: 0.5rem 0.6rem; }
+      .tag-pill { padding: 0.35rem 0.8rem; }
+      .post-card { margin-bottom: 1.2rem; }
+    }
+
+     
   </style>
 </head>
 <body>
@@ -608,34 +654,56 @@
 
 
 <article class="post-card">
+  <div class="post-date">May 18, 2026</div>
+  <h2 class="post-card-title"><a href="https://cyrilbouharb.github.io/posts/2026-05-18-take-your-local-github-sessions-anywhere/">Take your local GitHub sessions anywhere</a></h2>
+  <p class="post-card-desc">Kick off work in VS Code or the CLI, finish it from your phone. Remote control for GitHub Copilot sessions is now generally available on github.com and GitHub Mobile. The post Take your local GitHub</p>
+  
+  <ul class="tag-list">
+    <li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/copilot/">Copilot</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/github-copilot/">GitHub Copilot</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/github/">GitHub</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/ai-agents/">AI Agents</a></li>
+  </ul>
+  
+</article>
+
+<article class="post-card">
+  <div class="post-date">May 14, 2026</div>
+  <h2 class="post-card-title"><a href="https://cyrilbouharb.github.io/posts/2026-05-14-governance-at-the-speed-of-agents-microsoft-agent-framework-/">Governance at the Speed of Agents: Microsoft Agent Framework and Agent Governance Toolkit, Better Together</a></h2>
+  <p class="post-card-desc">Building powerful AI agents is only half the story, running them safely in production is the real challenge. As customers adopt Microsoft Agent Framework for agent orchestration, a clear need has emer</p>
+  
+  <ul class="tag-list">
+    <li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/foundry/">Foundry</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/github/">GitHub</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/openai/">OpenAI</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/rag/">RAG</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/architecture/">Architecture</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/ai-agents/">AI Agents</a></li>
+  </ul>
+  
+</article>
+
+<article class="post-card">
+  <div class="post-date">May 12, 2026</div>
+  <h2 class="post-card-title"><a href="https://cyrilbouharb.github.io/posts/2026-05-12-foundry-local-1-1-live-transcription-embeddings-and-response/">Foundry Local 1.1: Live Transcription, Embeddings, and Responses API</a></h2>
+  <p class="post-card-desc">Foundry Local 1.1 adds live transcription, embeddings, Responses API, WebGPU plugin, and download cancellation. The post Foundry Local 1.1: Live Transcription, Embeddings, and Responses API appeared f</p>
+  
+  <ul class="tag-list">
+    <li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/foundry/">Foundry</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/github/">GitHub</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/openai/">OpenAI</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/llm/">LLM</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/data-ai/">Data &amp; AI</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/rag/">RAG</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/embeddings/">Embeddings</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/architecture/">Architecture</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/ai-agents/">AI Agents</a></li>
+  </ul>
+  
+</article>
+
+<article class="post-card">
+  <div class="post-date">May 12, 2026</div>
+  <h2 class="post-card-title"><a href="https://cyrilbouharb.github.io/posts/2026-05-12-what-s-new-in-microsoft-foundry-april-2026/">What’s new in Microsoft Foundry | April 2026</a></h2>
+  <p class="post-card-desc">April brings a wave of model arrivals — GPT-5.5, GPT-image-2, Microsoft first-party MAI models for image, voice, and transcription, Gemma 4, and Claude Opus 4.7 — alongside Foundry Local GA, Microsoft</p>
+  
+  <ul class="tag-list">
+    <li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/foundry/">Foundry</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/github/">GitHub</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/openai/">OpenAI</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/data-ai/">Data &amp; AI</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/responsible-ai/">Responsible AI</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/ai-agents/">AI Agents</a></li>
+  </ul>
+  
+</article>
+
+<article class="post-card">
   <div class="post-date">May 8, 2026</div>
   <h2 class="post-card-title"><a href="https://cyrilbouharb.github.io/posts/2026-05-08-welcome/">Welcome to My Blog</a></h2>
   <p class="post-card-desc">The first entry — why I started this blog and what to expect.</p>
   
   <ul class="tag-list">
     <li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/meta/">meta</a></li>
-  </ul>
-  
-</article>
-
-<article class="post-card">
-  <div class="post-date">May 7, 2026</div>
-  <h2 class="post-card-title"><a href="https://cyrilbouharb.github.io/posts/2026-05-07-agent-pull-requests-are-everywhere-here-s-how-to-review-them/">Agent pull requests are everywhere. Here’s how to review them.</a></h2>
-  <p class="post-card-desc">A practical guide to reviewing agent-generated pull requests: what to look for, where issues hide, and how to catch technical debt before it ships. The post Agent pull requests are everywhere. Here&amp;#8</p>
-  
-  <ul class="tag-list">
-    <li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/copilot/">Copilot</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/github-copilot/">GitHub Copilot</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/github/">GitHub</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/rag/">RAG</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/ai-agents/">AI Agents</a></li>
-  </ul>
-  
-</article>
-
-<article class="post-card">
-  <div class="post-date">May 7, 2026</div>
-  <h2 class="post-card-title"><a href="https://cyrilbouharb.github.io/posts/2026-05-07-improving-token-efficiency-in-github-agentic-workflows/">Improving token efficiency in GitHub Agentic Workflows</a></h2>
-  <p class="post-card-desc">Agentic workflows that run on every pull request can quietly accumulate large API bills. Here&#39;s how we instrumented our own production workflows, found the inefficiencies, and built agents to fix them</p>
-  
-  <ul class="tag-list">
-    <li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/copilot/">Copilot</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/github/">GitHub</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/llm/">LLM</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/data-ai/">Data &amp; AI</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/architecture/">Architecture</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/ai-agents/">AI Agents</a></li>
   </ul>
   
 </article>
@@ -652,28 +720,6 @@
 </article>
 
 <article class="post-card">
-  <div class="post-date">May 6, 2026</div>
-  <h2 class="post-card-title"><a href="https://cyrilbouharb.github.io/posts/2026-05-06-validating-agentic-behavior-when-correct-isn-t-deterministic/">Validating agentic behavior when “correct” isn’t deterministic</a></h2>
-  <p class="post-card-desc">How to build the “Trust Layer” for Github Copilot Coding Agents without brittle scripts or black-box judgements by using dominatory analysis. The post Validating agentic behavior when “correct” isn’t </p>
-  
-  <ul class="tag-list">
-    <li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/copilot/">Copilot</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/github-copilot/">GitHub Copilot</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/github/">GitHub</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/data-ai/">Data &amp; AI</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/rag/">RAG</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/ai-agents/">AI Agents</a></li>
-  </ul>
-  
-</article>
-
-<article class="post-card">
-  <div class="post-date">April 24, 2026</div>
-  <h2 class="post-card-title"><a href="https://cyrilbouharb.github.io/posts/2026-04-24-azure-mcp-server-now-available-as-an-mcp-bundle-mcpb/">Azure MCP Server now available as an MCP Bundle (.mcpb)</a></h2>
-  <p class="post-card-desc">Azure MCP Server is now available as an MCP Bundle (.mcpb), enabling one-click installation into Claude Desktop and other MCP-compatible clients. The post Azure MCP Server now available as an MCP Bund</p>
-  
-  <ul class="tag-list">
-    <li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/foundry/">Foundry</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/github/">GitHub</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/data-ai/">Data &amp; AI</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/rag/">RAG</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/architecture/">Architecture</a></li>
-  </ul>
-  
-</article>
-
-<article class="post-card">
   <div class="post-date">April 24, 2026</div>
   <h2 class="post-card-title"><a href="https://cyrilbouharb.github.io/posts/2026-04-24-chat-history-storage-patterns-in-microsoft-agent-framework/">Chat History Storage Patterns in Microsoft Agent Framework</a></h2>
   <p class="post-card-desc">When people talk about building AI agents, they usually focus on models, tools, and prompts. In practice, one of the most important architectural decisions is much simpler: where does the conversation</p>
@@ -685,23 +731,34 @@
 </article>
 
 <article class="post-card">
-  <div class="post-date">April 23, 2026</div>
-  <h2 class="post-card-title"><a href="https://cyrilbouharb.github.io/posts/2026-04-23-codeact-in-agent-framework-faster-agents-with-fewer-model-tu/">CodeAct in Agent Framework: Faster Agents with Fewer Model Turns</a></h2>
-  <p class="post-card-desc">Modern AI agents often aren&amp;#8217;t bottlenecked by model quality, they are bottlenecked by orchestration overhead. When an agent chains together many small tool calls, each step typically requires a </p>
+  <div class="post-date">April 22, 2026</div>
+  <h2 class="post-card-title"><a href="https://cyrilbouharb.github.io/posts/2026-04-22-from-local-to-production-the-complete-developer-journey-for-/">From Local to Production: The Complete Developer Journey for Building, Composing, and Deploying AI Agents</a></h2>
+  <p class="post-card-desc">When we launched Microsoft Agent Framework last October, we made a promise: building production-grade AI agents should feel as natural and structured as building any other software. Today, we’re deliv</p>
   
   <ul class="tag-list">
-    <li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/data-ai/">Data &amp; AI</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/ai-agents/">AI Agents</a></li>
+    <li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/foundry/">Foundry</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/copilot/">Copilot</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/github-copilot/">GitHub Copilot</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/github/">GitHub</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/openai/">OpenAI</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/semantic-kernel/">Semantic Kernel</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/ai-agents/">AI Agents</a></li>
   </ul>
   
 </article>
 
 <article class="post-card">
-  <div class="post-date">April 23, 2026</div>
-  <h2 class="post-card-title"><a href="https://cyrilbouharb.github.io/posts/2026-04-23-openai-s-gpt-5-5-in-microsoft-foundry-frontier-intelligence-/">OpenAI’s GPT-5.5 in Microsoft Foundry: Frontier intelligence on an enterprise ready platform</a></h2>
-  <p class="post-card-desc">OpenAI’s GPT-5.5 will be generally available in Microsoft Foundry, bringing OpenAI’s latest frontier model to Azure and the enterprise teams building agents for real production work. The post OpenAI’s</p>
+  <div class="post-date">April 22, 2026</div>
+  <h2 class="post-card-title"><a href="https://cyrilbouharb.github.io/posts/2026-04-22-introducing-the-new-hosted-agents-in-foundry-agent-service-s/">Introducing the new hosted agents in Foundry Agent Service: secure, scalable compute built for agents</a></h2>
+  <p class="post-card-desc">Agents are already transforming how developers solve problems. Whether it&amp;#8217;s a coding agent that refactors your repo overnight, a research agent that synthesizes hundreds of documents into a brie</p>
   
   <ul class="tag-list">
     <li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/foundry/">Foundry</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/copilot/">Copilot</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/github-copilot/">GitHub Copilot</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/github/">GitHub</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/openai/">OpenAI</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/data-ai/">Data &amp; AI</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/ai-agents/">AI Agents</a></li>
+  </ul>
+  
+</article>
+
+<article class="post-card">
+  <div class="post-date">April 22, 2026</div>
+  <h2 class="post-card-title"><a href="https://cyrilbouharb.github.io/posts/2026-04-22-introducing-toolboxes-in-foundry/">Introducing Toolboxes in Foundry</a></h2>
+  <p class="post-card-desc">Available in Public Preview Today   Toolbox is a new way to curate, configure, and reuse tools across all of your AI agents without rewiring them every time from Foundry.  Today, teams build agents ac</p>
+  
+  <ul class="tag-list">
+    <li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/foundry/">Foundry</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/azure-ai/">Azure AI</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/copilot/">Copilot</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/github-copilot/">GitHub Copilot</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/github/">GitHub</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/rag/">RAG</a></li><li><a class="tag-pill" href="https://cyrilbouharb.github.io/tags/ai-agents/">AI Agents</a></li>
   </ul>
   
 </article>

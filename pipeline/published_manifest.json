@@ -1,13 +1,24 @@
 {
   "published_urls": [
-    "https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/",
-    "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-mcpb-support/",
-    "https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/",
-    "https://azure.microsoft.com/en-us/blog/openais-gpt-5-5-in-microsoft-foundry-frontier-intelligence-on-an-enterprise-ready-platform/",
-    "https://devblogs.microsoft.com/agent-framework/codeact-with-hyperlight/",
+    "https://devblogs.microsoft.com/agent-framework/governance-at-the-speed-of-agents-microsoft-agent-framework-and-agent-governance-toolkit-better-together/",
     "https://devblogs.microsoft.com/agent-framework/from-local-to-production-deploy-your-microsoft-agent-framework-agent-with-foundry-hosted-agents/",
     "https://devblogs.microsoft.com/agent-framework/chat-history-storage-patterns-in-microsoft-agent-framework/",
-    "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/"
+    "https://devblogs.microsoft.com/foundry/foundry-local-v1-1/",
+    "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-apr-2026/",
+    "https://devblogs.microsoft.com/foundry/introducing-toolboxes-in-foundry/",
+    "https://devblogs.microsoft.com/foundry/from-local-to-production-the-complete-developer-journey-for-building-composing-and-deploying-ai-agents/",
+    "https://devblogs.microsoft.com/foundry/introducing-the-new-hosted-agents-in-foundry-agent-service-secure-scalable-compute-built-for-agents/",
+    "https://github.blog/news-insights/product-news/take-your-local-github-sessions-anywhere/"
   ],
-  "published_hashes": []
+  "published_hashes": [
+    "971c2a6056940afb",
+    "1ebcb739a78497d6",
+    "598a8363d6446462",
+    "9b1f475bee4c7af6",
+    "c9e478289fed6147",
+    "d648e72ac9a0c761",
+    "391b66691985bb99",
+    "5586df15a4996f7b",
+    "4c9caf07a88326ae"
+  ]
 }

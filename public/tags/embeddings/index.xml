@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Embeddings on Cyril&#39;s Cloud &amp; AI Daily</title>
+    <link>https://cyrilbouharb.github.io/tags/embeddings/</link>
+    <description>Recent content in Embeddings on Cyril&#39;s Cloud &amp; AI Daily</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cyrilbouharb.github.io/tags/embeddings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Foundry Local 1.1: Live Transcription, Embeddings, and Responses API</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-05-12-foundry-local-1-1-live-transcription-embeddings-and-response/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-05-12-foundry-local-1-1-live-transcription-embeddings-and-response/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;RAG (Retrieval Augmented Generation)&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;Today we’re announcing the1.1.0 release of Foundry Local— Microsoft’s cross-platform local AI solution that lets developers bringAI directly into their applicationswith no cloud dependency, no network latency, and no per-token costs.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

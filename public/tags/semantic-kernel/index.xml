@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Semantic Kernel on Cyril&#39;s Cloud &amp; AI Daily</title>
+    <link>https://cyrilbouharb.github.io/tags/semantic-kernel/</link>
+    <description>Recent content in Semantic Kernel on Cyril&#39;s Cloud &amp; AI Daily</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 22 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cyrilbouharb.github.io/tags/semantic-kernel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Local to Production: The Complete Developer Journey for Building, Composing, and Deploying AI Agents</title>
+      <link>https://cyrilbouharb.github.io/posts/2026-04-22-from-local-to-production-the-complete-developer-journey-for-/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://cyrilbouharb.github.io/posts/2026-04-22-from-local-to-production-the-complete-developer-journey-for-/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s been an important development in the &lt;strong&gt;AI Agents&lt;/strong&gt; space that caught my attention, and I wanted to break it down — not just what was announced, but why it matters and how it fits into the bigger picture.&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;When we launchedMicrosoft Agent Frameworklast October, we made a promise: building production-grade AI agents should feel as natural and structured as building any other software.&lt;/p&gt;&#xA;&lt;p&gt;Today, we’re delivering on that promise — with thev1.0 release of Microsoft Agent Frameworkand thegeneral availability ofFoundry Toolkitfor Visual Studio Code(formerly AI Toolkit for VS Code), new capabilities inmemory(preview) in Foundry Agent Service,Toolbox in Foundry(preview) to give your agents the right tools, a faster and more securehostedagentsexperience in Foundry Agent Service (preview), andObservability in Foundry Control Planereaching full GA on core capabilities including end-to-end tracing now in place.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
