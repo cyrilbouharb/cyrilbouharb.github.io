@@ -18,7 +18,8 @@
     "https://devblogs.microsoft.com/foundry/build-smarter-agents-faster-with-foundry-iq/",
     "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-build-2026/",
     "https://devblogs.microsoft.com/azure-sdk/introducing-azure-functions-skills-ai-era-workspace/",
-    "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/"
+    "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+    "https://devblogs.microsoft.com/foundry/azure-translator-improving-translation-quality-with-adaptive-datasets-and-few-shot-learning/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -39,6 +40,7 @@
     "c803d55ec7c78b7d",
     "f644fb18e23bf14d",
     "c1ecdce855ab040b",
-    "8cd512e0350f8ee5"
+    "8cd512e0350f8ee5",
+    "6f93150750935e1e"
   ]
 }
