@@ -25,7 +25,8 @@
     "https://devblogs.microsoft.com/foundry/announcing-foundry-managed-compute/",
     "https://devblogs.microsoft.com/foundry/agent-optimizer-build2026/",
     "https://devblogs.microsoft.com/foundry/memory-build2026/",
-    "https://devblogs.microsoft.com/foundry/toolbox-build-26/"
+    "https://devblogs.microsoft.com/foundry/toolbox-build-26/",
+    "https://devblogs.microsoft.com/foundry/build-2026-from-observability-to-roi-for-ai-agents-on-any-framework/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -53,6 +54,7 @@
     "57284816df58e7de",
     "965843a84cf26b59",
     "1a4aa9552bf9cbe0",
-    "fd68bf2b1ce8a9e5"
+    "fd68bf2b1ce8a9e5",
+    "88ec8a7b29cca6d4"
   ]
 }
