@@ -29,7 +29,8 @@
     "https://devblogs.microsoft.com/foundry/build-2026-from-observability-to-roi-for-ai-agents-on-any-framework/",
     "https://devblogs.microsoft.com/foundry/accelerate-edge-ai-development-with-foundry-local/",
     "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli/",
-    "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/"
+    "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/",
+    "https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -61,6 +62,7 @@
     "88ec8a7b29cca6d4",
     "96c7aaad53e36bb4",
     "1a110680177e5e3c",
-    "b71b55ee3a5cc253"
+    "b71b55ee3a5cc253",
+    "5d3a5202c9c67ca4"
   ]
 }
