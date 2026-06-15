@@ -31,7 +31,9 @@
     "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli/",
     "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/",
     "https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/",
-    "https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/"
+    "https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/",
+    "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/",
+    "https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -65,6 +67,8 @@
     "1a110680177e5e3c",
     "b71b55ee3a5cc253",
     "5d3a5202c9c67ca4",
-    "a4e98f8026414be2"
+    "a4e98f8026414be2",
+    "0ba3272de0f7841b",
+    "96fb7a7ce20e279d"
   ]
 }
