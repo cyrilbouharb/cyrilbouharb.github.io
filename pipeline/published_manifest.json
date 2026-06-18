@@ -33,7 +33,8 @@
     "https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/",
     "https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/",
     "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/",
-    "https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset/"
+    "https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset/",
+    "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -69,6 +70,7 @@
     "5d3a5202c9c67ca4",
     "a4e98f8026414be2",
     "0ba3272de0f7841b",
-    "96fb7a7ce20e279d"
+    "96fb7a7ce20e279d",
+    "c657b6576b9758fc"
   ]
 }
