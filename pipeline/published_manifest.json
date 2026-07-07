@@ -38,7 +38,8 @@
     "https://devblogs.microsoft.com/foundry/outcome-driven-learning-systems-enterprise-rl-with-openenv-and-foundry/",
     "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
     "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source/",
-    "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/"
+    "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/",
+    "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-june-2026/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -79,6 +80,7 @@
     "af9eab068dd9acd1",
     "3c538b4fb66edae9",
     "4ee50f139e948419",
-    "0d180708b9cf8116"
+    "0d180708b9cf8116",
+    "192c4b593a0069ea"
   ]
 }
