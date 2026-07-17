@@ -42,7 +42,8 @@
     "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-june-2026/",
     "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages/",
     "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
-    "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/"
+    "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
+    "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -87,6 +88,7 @@
     "192c4b593a0069ea",
     "826a407adcaa15ca",
     "fed88e5c2993c2e6",
-    "6e4ea61ea6fdf631"
+    "6e4ea61ea6fdf631",
+    "6792a6598ab6a153"
   ]
 }
