@@ -3,7 +3,7 @@ title: "The harness is all you need (mostly)"
 date: 2026-07-27
 tags: ["Copilot", "GitHub Copilot", "GitHub", "Data & AI", "AI Agents"]
 categories: ["analysis"]
-source_url: "https://github.blog/company/the-harness-is-all-you-need-mostly/"
+source_url: "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/"
 description: "A practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool.
 The post The harness is all you need (mostly) appeared first on T"
 ---
@@ -69,6 +69,6 @@ The technical evolution of Copilot is fascinating from an AI systems perspective
 
 ---
 
-📖 **[Read the original article](https://github.blog/company/the-harness-is-all-you-need-mostly/)** for the full details and official documentation.
+📖 **[Read the original article](https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/)** for the full details and official documentation.
 
 *Written by Cyril Bou-Harb — Solution Engineer, Cloud & AI at Microsoft. Opinions and analysis are my own and do not represent Microsoft's official position.*
