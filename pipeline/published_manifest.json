@@ -53,7 +53,8 @@
     "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
     "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
     "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
-    "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/"
+    "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
+    "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -109,6 +110,7 @@
     "4df08dafbca922d1",
     "7e5e1e8610f9c5a9",
     "565f8aaf7c40eea7",
-    "7efa45facc6afd34"
+    "7efa45facc6afd34",
+    "851b216e37df4ab0"
   ]
 }
