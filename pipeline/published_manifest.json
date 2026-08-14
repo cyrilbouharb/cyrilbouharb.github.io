@@ -59,7 +59,8 @@
     "https://devblogs.microsoft.com/foundry/azure-content-understanding-updates-august-2026/",
     "https://devblogs.microsoft.com/foundry/azure-content-understanding-gpt-5-series-guide-model-selection-grounding-improvements-and-confidence-enhancements/",
     "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
-    "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/"
+    "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+    "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -121,6 +122,7 @@
     "15a8fda6da08901d",
     "64a17dd26e8732f6",
     "8e22b0b0124b585b",
-    "08365977cd80206b"
+    "08365977cd80206b",
+    "9c196c1f17dbbac8"
   ]
 }
