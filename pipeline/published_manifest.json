@@ -61,7 +61,8 @@
     "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
     "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
     "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
-    "https://devblogs.microsoft.com/foundry/five-new-claude-capabilities-now-available-in-foundry/"
+    "https://devblogs.microsoft.com/foundry/five-new-claude-capabilities-now-available-in-foundry/",
+    "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -125,6 +126,7 @@
     "8e22b0b0124b585b",
     "08365977cd80206b",
     "9c196c1f17dbbac8",
-    "ed0bb813fc0963dd"
+    "ed0bb813fc0963dd",
+    "36e7375455b74f9e"
   ]
 }
