@@ -67,7 +67,8 @@
     "https://devblogs.microsoft.com/azure-sdk/power-azure-sre-agent-with-connector-namespace/",
     "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
     "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
-    "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/"
+    "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
+    "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -137,6 +138,7 @@
     "83df3cb848ca69ac",
     "1738353f28d07e4a",
     "407299432d9998ec",
-    "3096b36f6056d24c"
+    "3096b36f6056d24c",
+    "f811cada5ee199e3"
   ]
 }
