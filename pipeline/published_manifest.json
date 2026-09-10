@@ -69,7 +69,8 @@
     "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
     "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
     "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-    "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-july-august-2026/"
+    "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-july-august-2026/",
+    "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-2607/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -141,6 +142,7 @@
     "407299432d9998ec",
     "3096b36f6056d24c",
     "f811cada5ee199e3",
-    "d85133e926243aa1"
+    "d85133e926243aa1",
+    "384836b5c114d035"
   ]
 }
