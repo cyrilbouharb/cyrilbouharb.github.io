@@ -71,7 +71,8 @@
     "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
     "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-july-august-2026/",
     "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-2607/",
-    "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/"
+    "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
+    "https://devblogs.microsoft.com/foundry/foundry-devpack-announcement/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -145,6 +146,7 @@
     "f811cada5ee199e3",
     "d85133e926243aa1",
     "384836b5c114d035",
-    "53dc2a824ef94f8a"
+    "53dc2a824ef94f8a",
+    "f5835891260607a0"
   ]
 }
