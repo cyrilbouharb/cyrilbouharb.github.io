@@ -72,7 +72,8 @@
     "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-july-august-2026/",
     "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-2607/",
     "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
-    "https://devblogs.microsoft.com/foundry/foundry-devpack-announcement/"
+    "https://devblogs.microsoft.com/foundry/foundry-devpack-announcement/",
+    "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -147,6 +148,7 @@
     "d85133e926243aa1",
     "384836b5c114d035",
     "53dc2a824ef94f8a",
-    "f5835891260607a0"
+    "f5835891260607a0",
+    "02ea023ead6b345e"
   ]
 }
