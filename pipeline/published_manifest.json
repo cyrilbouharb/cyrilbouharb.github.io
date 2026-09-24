@@ -76,7 +76,8 @@
     "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
     "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
     "https://devblogs.microsoft.com/azure-sdk/using-azure-blob-storage-as-a-durable-filesystem-for-langchain-deep-agents-2/",
-    "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/"
+    "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
+    "https://devblogs.microsoft.com/foundry/from-chatbots-to-automated-assistants-routines-in-microsoft-foundry-are-now-generally-available/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -155,6 +156,7 @@
     "02ea023ead6b345e",
     "18bdedfb0c5ed6fd",
     "8476b41764802d22",
-    "0f1a07da5479caba"
+    "0f1a07da5479caba",
+    "030fbe6e3259f34d"
   ]
 }
