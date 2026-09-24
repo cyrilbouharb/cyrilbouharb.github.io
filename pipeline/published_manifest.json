@@ -77,7 +77,9 @@
     "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
     "https://devblogs.microsoft.com/azure-sdk/using-azure-blob-storage-as-a-durable-filesystem-for-langchain-deep-agents-2/",
     "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
-    "https://devblogs.microsoft.com/foundry/from-chatbots-to-automated-assistants-routines-in-microsoft-foundry-are-now-generally-available/"
+    "https://devblogs.microsoft.com/foundry/from-chatbots-to-automated-assistants-routines-in-microsoft-foundry-are-now-generally-available/",
+    "https://devblogs.microsoft.com/foundry/egress-controls-hosted-agent/",
+    "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -157,6 +159,8 @@
     "18bdedfb0c5ed6fd",
     "8476b41764802d22",
     "0f1a07da5479caba",
-    "030fbe6e3259f34d"
+    "030fbe6e3259f34d",
+    "75886da5da5869e0",
+    "4431c738b4b1e8a1"
   ]
 }
