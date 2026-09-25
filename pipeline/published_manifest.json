@@ -79,7 +79,8 @@
     "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
     "https://devblogs.microsoft.com/foundry/from-chatbots-to-automated-assistants-routines-in-microsoft-foundry-are-now-generally-available/",
     "https://devblogs.microsoft.com/foundry/egress-controls-hosted-agent/",
-    "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/"
+    "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+    "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -161,6 +162,7 @@
     "0f1a07da5479caba",
     "030fbe6e3259f34d",
     "75886da5da5869e0",
-    "4431c738b4b1e8a1"
+    "4431c738b4b1e8a1",
+    "a2908e03cf24041e"
   ]
 }
