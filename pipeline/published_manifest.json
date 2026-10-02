@@ -82,7 +82,8 @@
     "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
     "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
     "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
-    "https://devblogs.microsoft.com/foundry/why-content-extraction-still-matters-in-the-genai-era/"
+    "https://devblogs.microsoft.com/foundry/why-content-extraction-still-matters-in-the-genai-era/",
+    "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -167,6 +168,7 @@
     "4431c738b4b1e8a1",
     "a2908e03cf24041e",
     "0baeacde9feacfd4",
-    "526006a777ada3a4"
+    "526006a777ada3a4",
+    "afd517ff06180871"
   ]
 }
