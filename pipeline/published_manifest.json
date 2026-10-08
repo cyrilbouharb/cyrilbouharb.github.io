@@ -86,7 +86,8 @@
     "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
     "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
     "https://devblogs.microsoft.com/azure-sdk/azure-functions-agent-binding/",
-    "https://devblogs.microsoft.com/foundry/choosing-azure-document-intelligence-and-content-understanding/"
+    "https://devblogs.microsoft.com/foundry/choosing-azure-document-intelligence-and-content-understanding/",
+    "https://devblogs.microsoft.com/azure-sdk/dynamic-workflows-azure-functions-hosted-skills/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -175,6 +176,7 @@
     "afd517ff06180871",
     "6f397884428e9f0f",
     "3b3a76c0e3490b24",
-    "2c4e7f2fd465241d"
+    "2c4e7f2fd465241d",
+    "5c8db687c4db908f"
   ]
 }
