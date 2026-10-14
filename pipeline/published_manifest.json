@@ -89,7 +89,8 @@
     "https://devblogs.microsoft.com/foundry/choosing-azure-document-intelligence-and-content-understanding/",
     "https://devblogs.microsoft.com/azure-sdk/dynamic-workflows-azure-functions-hosted-skills/",
     "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
-    "https://devblogs.microsoft.com/foundry/more-than-a-schema-content-understanding-prebuilt-analyzers/"
+    "https://devblogs.microsoft.com/foundry/more-than-a-schema-content-understanding-prebuilt-analyzers/",
+    "https://devblogs.microsoft.com/foundry/content-understanding-confidence-grounding-hitl/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -181,6 +182,7 @@
     "2c4e7f2fd465241d",
     "5c8db687c4db908f",
     "23216cfbe10c8c92",
-    "cb38b64afee8ab9c"
+    "cb38b64afee8ab9c",
+    "3590d7d276533339"
   ]
 }
