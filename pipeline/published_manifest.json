@@ -91,7 +91,8 @@
     "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
     "https://devblogs.microsoft.com/foundry/more-than-a-schema-content-understanding-prebuilt-analyzers/",
     "https://devblogs.microsoft.com/foundry/content-understanding-confidence-grounding-hitl/",
-    "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-3-0-stable-release/"
+    "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-3-0-stable-release/",
+    "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-september-2026/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -185,6 +186,7 @@
     "23216cfbe10c8c92",
     "cb38b64afee8ab9c",
     "3590d7d276533339",
-    "de18e08f6941170d"
+    "de18e08f6941170d",
+    "c24e47435210363c"
   ]
 }
