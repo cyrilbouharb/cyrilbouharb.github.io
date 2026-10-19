@@ -92,7 +92,8 @@
     "https://devblogs.microsoft.com/foundry/more-than-a-schema-content-understanding-prebuilt-analyzers/",
     "https://devblogs.microsoft.com/foundry/content-understanding-confidence-grounding-hitl/",
     "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-3-0-stable-release/",
-    "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-september-2026/"
+    "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-september-2026/",
+    "https://devblogs.microsoft.com/foundry/browser-automation-tool-ga/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -187,6 +188,7 @@
     "cb38b64afee8ab9c",
     "3590d7d276533339",
     "de18e08f6941170d",
-    "c24e47435210363c"
+    "c24e47435210363c",
+    "cff774116f19c5c2"
   ]
 }
