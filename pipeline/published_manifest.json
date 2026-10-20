@@ -93,7 +93,8 @@
     "https://devblogs.microsoft.com/foundry/content-understanding-confidence-grounding-hitl/",
     "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-3-0-stable-release/",
     "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-september-2026/",
-    "https://devblogs.microsoft.com/foundry/browser-automation-tool-ga/"
+    "https://devblogs.microsoft.com/foundry/browser-automation-tool-ga/",
+    "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -189,6 +190,7 @@
     "3590d7d276533339",
     "de18e08f6941170d",
     "c24e47435210363c",
-    "cff774116f19c5c2"
+    "cff774116f19c5c2",
+    "5e09805dda87945d"
   ]
 }
