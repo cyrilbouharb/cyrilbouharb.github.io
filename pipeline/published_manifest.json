@@ -97,7 +97,13 @@
     "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
     "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
     "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026/",
-    "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/"
+    "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
+    "https://devblogs.microsoft.com/foundry/browser-automation-tool-ignite/",
+    "https://devblogs.microsoft.com/foundry/the-foundry-dev-pack-is-here-build-foundry-agents-your-way/",
+    "https://devblogs.microsoft.com/foundry/whats-new-in-foundry-agent-service-at-ignite-2026/",
+    "https://devblogs.microsoft.com/foundry/build-once-reuse-across-your-agent-fleet-tools-and-toolboxes-in-foundry/",
+    "https://devblogs.microsoft.com/azure-sdk/microsoft-foundry-azure-developer-cli-ga/",
+    "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -197,6 +203,12 @@
     "5e09805dda87945d",
     "806b1f92932cb664",
     "88b66ab4804ec5f0",
-    "410a92595886a074"
+    "410a92595886a074",
+    "19f48b065b5191ee",
+    "63e69490abe21c55",
+    "5aed11bfb3bc63bb",
+    "19f28f0c0d925ff4",
+    "33761f94476022a7",
+    "de1a299348ffc0d1"
   ]
 }
