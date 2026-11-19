@@ -103,7 +103,8 @@
     "https://devblogs.microsoft.com/foundry/whats-new-in-foundry-agent-service-at-ignite-2026/",
     "https://devblogs.microsoft.com/foundry/build-once-reuse-across-your-agent-fleet-tools-and-toolboxes-in-foundry/",
     "https://devblogs.microsoft.com/azure-sdk/microsoft-foundry-azure-developer-cli-ga/",
-    "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/"
+    "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+    "https://devblogs.microsoft.com/foundry/build-trusted-autonomous-agents-for-your-team-with-microsoft-foundry/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -209,6 +210,7 @@
     "5aed11bfb3bc63bb",
     "19f28f0c0d925ff4",
     "33761f94476022a7",
-    "de1a299348ffc0d1"
+    "de1a299348ffc0d1",
+    "65d68f6bba50e6be"
   ]
 }
