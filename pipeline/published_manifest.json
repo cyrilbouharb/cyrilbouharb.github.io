@@ -107,7 +107,9 @@
     "https://devblogs.microsoft.com/foundry/build-trusted-autonomous-agents-for-your-team-with-microsoft-foundry/",
     "https://devblogs.microsoft.com/foundry/managed-compute-ga/",
     "https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/",
-    "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/"
+    "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/",
+    "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
+    "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/"
   ],
   "published_hashes": [
     "971c2a6056940afb",
@@ -217,6 +219,8 @@
     "65d68f6bba50e6be",
     "bd6d84a2ddccd371",
     "4725b1eeb6c9340e",
-    "f40c9f6c3ab2262e"
+    "f40c9f6c3ab2262e",
+    "0ef8b273cccd0c03",
+    "7d5c43e3274406d0"
   ]
 }
